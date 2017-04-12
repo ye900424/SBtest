@@ -1,0 +1,70 @@
+{
+  "groups": [
+    {
+      "name": "config",
+      "type": "com.config.ConfigTest",
+      "sourceType": "com.config.ConfigTest"
+    },
+    {
+      "name": "redis.cache",
+      "type": "com.redis.RedisConfig",
+      "sourceType": "com.redis.RedisConfig"
+    },
+    {
+      "name": "user",
+      "type": "com.domain.User",
+      "sourceType": "com.domain.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "config.address",
+      "type": "java.lang.String",
+      "sourceType": "com.config.ConfigTest"
+    },
+    {
+      "name": "config.configs",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.config.ConfigTest"
+    },
+    {
+      "name": "config.tel",
+      "type": "java.lang.String",
+      "sourceType": "com.config.ConfigTest"
+    },
+    {
+      "name": "redis.cache.cluster-nodes",
+      "type": "java.lang.String",
+      "sourceType": "com.redis.RedisConfig"
+    },
+    {
+      "name": "redis.cache.command-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.redis.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.cache.expire-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.redis.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "user.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.domain.User",
+      "defaultValue": 0
+    },
+    {
+      "name": "user.password",
+      "type": "java.lang.String",
+      "sourceType": "com.domain.User"
+    },
+    {
+      "name": "user.username",
+      "type": "java.lang.String",
+      "sourceType": "com.domain.User"
+    }
+  ],
+  "hints": []
+}

@@ -18,6 +18,11 @@
            #{password, jdbcType=VARCHAR}
        )
        ]]>
+-- INSERT INTO tb_user(username, password) VALUES(#{username},#{password})
     </insert>
+
+    <select id="getAll" resultType="User">
+        select * from tb_user where id=1
+    </select>
 
 </mapper>

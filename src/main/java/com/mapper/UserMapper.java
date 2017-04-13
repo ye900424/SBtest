@@ -7,6 +7,7 @@ import com.domain.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
 
 public interface UserMapper {
 
@@ -18,4 +19,6 @@ public interface UserMapper {
      * 注意：返回的是数据库影响条数，即1
      */
     public int insertUserWithBackId(User user);
+
+    public List<User> getAll();
 }

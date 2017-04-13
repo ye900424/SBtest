@@ -21,6 +21,13 @@ public class UserService {
         return user;
     }
 
+    public User getUser(String username,String password){
+        User user = new User();
+        user.setPassword(password);
+        user.setUsername(username);
+        return user;
+    }
+
     public boolean addUser(String username, String password){
         return userDao.insertUser(username, password)==1?true:false;
     }

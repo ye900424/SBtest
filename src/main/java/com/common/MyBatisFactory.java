@@ -24,10 +24,12 @@ import java.util.Properties;
  */
 @Configuration    //该注解类似于spring配置文件
 @MapperScan(basePackages="com.mapper")
-public class MyBatisConfig {
+public class MyBatisFactory {
 
+//    @Autowired
+//    private Environment env;
     @Autowired
-    private Environment env;
+    private MyBatisConfig config;
 
     /**
      * 创建数据源
@@ -37,10 +39,10 @@ public class MyBatisConfig {
     //@Primary
     public DataSource getDataSource() throws Exception{
         Properties props = new Properties();
-        props.put("driverClassName", env.getProperty("jdbc.driverClassName"));
-        props.put("url", env.getProperty("jdbc.url"));
-        props.put("username", env.getProperty("jdbc.username"));
-        props.put("password", env.getProperty("jdbc.password"));
+        props.put("driverClassName", config.getDriverClassName());
+        props.put("url", config.getUrl());
+        props.put("username", config.getUsername());
+        props.put("password", config.getPassword());
         return DruidDataSourceFactory.createDataSource(props);
     }
 
@@ -52,8 +54,8 @@ public class MyBatisConfig {
         SqlSessionFactoryBean fb = new SqlSessionFactoryBean();
         fb.setDataSource(dataSource);//指定数据源(这个必须有，否则报错)
         //下边两句仅仅用于*.xml文件，如果整个持久层操作不需要使用到xml文件的话（只用注解就可以搞定），则不加
-        fb.setTypeAliasesPackage(env.getProperty("mybatis.typeAliasesPackage"));//指定基包
-        fb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(env.getProperty("mybatis.mapperLocations")));//指定xml文件位置
+        fb.setTypeAliasesPackage(config.getTypeAliasesPackage());//指定基包
+        fb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(config.getMapperLocations()));//指定xml文件位置
 
         return fb.getObject();
     }

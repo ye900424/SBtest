@@ -6,6 +6,16 @@
       "sourceType": "com.config.ConfigTest"
     },
     {
+      "name": "configTest",
+      "type": "com.tmp.MybatisPT",
+      "sourceType": "com.tmp.MybatisPT"
+    },
+    {
+      "name": "mybatis",
+      "type": "com.tmp.MybatisesProperties",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
       "name": "redis.cache",
       "type": "com.redis.RedisConfig",
       "sourceType": "com.redis.RedisConfig"
@@ -14,6 +24,11 @@
       "name": "user",
       "type": "com.domain.User",
       "sourceType": "com.domain.User"
+    },
+    {
+      "name": "user",
+      "type": "com.domain.Users",
+      "sourceType": "com.domain.Users"
     }
   ],
   "properties": [
@@ -31,6 +46,61 @@
       "name": "config.tel",
       "type": "java.lang.String",
       "sourceType": "com.config.ConfigTest"
+    },
+    {
+      "name": "configTest.age",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.tmp.MybatisPT"
+    },
+    {
+      "name": "configTest.name",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisPT"
+    },
+    {
+      "name": "configTest.user",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisPT"
+    },
+    {
+      "name": "mybatis.age",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.age",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.list",
+      "type": "java.util.List<com.tmp.MybatisPT>",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.list",
+      "type": "java.util.List<com.tmp.MybatisPT>",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.name",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.name",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.user",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.user",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
     },
     {
       "name": "redis.cache.cluster-nodes",
@@ -53,17 +123,39 @@
       "name": "user.id",
       "type": "java.lang.Integer",
       "sourceType": "com.domain.User",
-      "defaultValue": 0
+      "defaultValue": 8
+    },
+    {
+      "name": "user.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.domain.Users"
+    },
+    {
+      "name": "user.list",
+      "type": "java.util.List<com.domain.User>",
+      "sourceType": "com.domain.Users"
     },
     {
       "name": "user.password",
       "type": "java.lang.String",
-      "sourceType": "com.domain.User"
+      "sourceType": "com.domain.User",
+      "defaultValue": "8888"
+    },
+    {
+      "name": "user.password",
+      "type": "java.lang.String",
+      "sourceType": "com.domain.Users"
     },
     {
       "name": "user.username",
       "type": "java.lang.String",
-      "sourceType": "com.domain.User"
+      "sourceType": "com.domain.User",
+      "defaultValue": "haha"
+    },
+    {
+      "name": "user.username",
+      "type": "java.lang.String",
+      "sourceType": "com.domain.Users"
     }
   ],
   "hints": []

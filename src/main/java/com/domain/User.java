@@ -17,12 +17,11 @@ import org.springframework.stereotype.Component;
 public class User {
 
     //@Value("${user.id}")
-    private int id;
-
+    private int id = 8;
     //@Value("wangna")
-    private String username;
+    private String username = "haha";
 
-    private String password;
+    private String password = "8888";
 
     public int getId() {
         return id;

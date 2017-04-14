@@ -1,9 +1,17 @@
+server:
+    port: 9090
+
 #config test
 config:
     address: 泰兴市马店镇
     tel: 18112996639
 
-name: configTest
+configTest:
+    user: rrr
+    name: aaa
+    age:
+        - 100
+        - 0
 
 
 #redis
@@ -23,6 +31,56 @@ jdbc:
 mybatis:
     typeAliasesPackage: com.domain
     mapperLocations: classpath:mapper/*.xml
+
+user:
+    id: 1
+    password: 111111
+    username: cy
+
+
+#demo2（新联调）环境配置
+---
+spring:
+  profiles: demo2
+mybatis:
+  url: jdbc:mysql://${local.database.ip:rm-bp1zoe09avcc78ib3.mysql.rds.aliyuncs.com}:3306/db_agency?useUnicode=true&characterEncoding=UTF8
+  username: demo_user
+  password: userOFdemo0726
+
+dubbo:
+  registry: "${local.dubbo.registry:zookeeper://172.16.101.29:1500}"
+
+zookeeper:
+  host: ${local.zookeeper.host:172.16.101.29}
+  port: ${local.zookeeper.port:1500}
+
+#dev2环境配置
+#---
+#spring:
+#  profiles: dev2
+#
+#mybatis:
+#  url: jdbc:mysql://${local.database.ip:10.110.2.50}:3306/db_agency?useUnicode=true&characterEncoding=UTF8&logger=com.mysql.jdbc.log.Slf4JLogger&profileSQL=true
+#  username: dev_user
+#  password: userOF#dev0726
+#
+#dubbo:
+#  registry: "${local.dubbo.registry:zookeeper://10.110.2.50:1500}"
+#
+#zookeeper:
+#  host: ${local.zookeeper.host:10.110.2.50}
+#  port: ${local.zookeeper.port:1500}
+
+#user:
+#    id: 2
+#    password: 222222
+#    username: cy
+#
+#
+#user:
+#    id: 3
+#    password: 333333
+#    username: cy
 
 
 

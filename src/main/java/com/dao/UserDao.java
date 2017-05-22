@@ -13,9 +13,10 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class UserDao {
 
-    @Autowired
+    @Autowired(required=false)
     private UserMapper userMapper;
 
+    @Autowired
     MyBatisFactory myBatisFactory;
 
     public int insertUser(String username, String password){

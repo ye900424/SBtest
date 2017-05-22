@@ -21,6 +21,7 @@ import lombok.ToString;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -32,17 +33,11 @@ import java.util.Map;
 @Component
 @Data @ToString(callSuper = true)
 @ConfigurationProperties(
-    prefix = MybatisProperties.MYBATIS_PREFIX
+        prefix = MybatisProperties.MYBATIS_PREFIX,
+        ignoreInvalidFields = true,
+        ignoreUnknownFields = true,
+        ignoreNestedProperties = false
 )
-public class MybatisesProperties extends MybatisPT{
-//    Map<String,List<MybatisProperties>> mybatises = null;
-    public List<MybatisPT> list ;
-
-    public List<MybatisPT> getList() {
-        return list;
-    }
-
-    public void setList(List<MybatisPT> list) {
-        this.list = list;
-    }
+public class MybatisesProperties extends MybatisProperties{
+    Map<String,List<MybatisProperties>> mybatises;
 }

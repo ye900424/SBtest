@@ -63,43 +63,164 @@
       "sourceType": "com.tmp.MybatisPT"
     },
     {
-      "name": "mybatis.age",
+      "name": "mybatis.check-config-location",
+      "type": "java.lang.Boolean",
+      "description": "Check the config file exists.",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.config",
+      "type": "java.lang.String",
+      "description": "Config file path.",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.data-source-name",
+      "type": "java.lang.String",
+      "description": "names for current mybatis.",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.data-source-ref",
+      "type": "java.lang.String",
+      "description": "references for current mybatis.",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.executor-type",
+      "type": "org.apache.ibatis.session.ExecutorType",
+      "description": "Execution mode.",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.mapper-locations",
+      "type": "java.lang.String[]",
+      "description": "Location of mybatis mapper files.",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.mapper-scan",
       "type": "java.util.List<java.lang.String>",
+      "description": "mapper scan base packages.",
       "sourceType": "com.tmp.MybatisesProperties"
     },
     {
-      "name": "mybatis.age",
-      "type": "java.util.List<java.lang.String>",
+      "name": "mybatis.max-active",
+      "type": "java.lang.Integer",
       "sourceType": "com.tmp.MybatisesProperties"
     },
     {
-      "name": "mybatis.list",
-      "type": "java.util.List<com.tmp.MybatisPT>",
+      "name": "mybatis.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer",
       "sourceType": "com.tmp.MybatisesProperties"
     },
     {
-      "name": "mybatis.list",
-      "type": "java.util.List<com.tmp.MybatisPT>",
+      "name": "mybatis.max-wait",
+      "type": "java.lang.Integer",
       "sourceType": "com.tmp.MybatisesProperties"
     },
     {
-      "name": "mybatis.name",
+      "name": "mybatis.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.mybatises",
+      "type": "java.util.Map<java.lang.String,java.util.List<com.tmp.MybatisProperties>>",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.password",
       "type": "java.lang.String",
       "sourceType": "com.tmp.MybatisesProperties"
     },
     {
-      "name": "mybatis.name",
+      "name": "mybatis.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.sql-session-factory-name",
       "type": "java.lang.String",
       "sourceType": "com.tmp.MybatisesProperties"
     },
     {
-      "name": "mybatis.user",
+      "name": "mybatis.sql-session-factory-ref",
       "type": "java.lang.String",
       "sourceType": "com.tmp.MybatisesProperties"
     },
     {
-      "name": "mybatis.user",
+      "name": "mybatis.sql-session-template-name",
       "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.sql-session-template-ref",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.transaction-manager-name",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.transaction-manager-ref",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.type-aliases",
+      "type": "java.lang.Class<?>[]",
+      "description": "Classes of alias. (More preferred than {@link #typeAliasesPackage})",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.type-aliases-package",
+      "type": "java.lang.String",
+      "description": "Package to scan domain objects.",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.type-handlers-package",
+      "type": "java.lang.String",
+      "description": "Package to scan handlers.",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.url",
+      "type": "java.lang.String",
+      "description": "Configuration for Datasource.",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.username",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.tmp.MybatisesProperties"
+    },
+    {
+      "name": "mybatis.validation-query-timeout",
+      "type": "java.lang.Integer",
       "sourceType": "com.tmp.MybatisesProperties"
     },
     {

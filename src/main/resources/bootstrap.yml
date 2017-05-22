@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: sbtest
+  cloud:
+    config:
+      profile:
+      label: master
+      uri: http://121.42.253.157:8888/

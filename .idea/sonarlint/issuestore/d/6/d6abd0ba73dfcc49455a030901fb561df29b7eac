@@ -1,0 +1,9 @@
+
+[squid:S1161":Add the "@Override" annotation above this method signature(ÛÑ¶¸ùÿÿÿÿ8¯Õ«ÑÃ+
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ
+Nsquid:S1118":Add a private constructor to hide the implicit public one.(Òö g
+bsquid:S2133"ARemove this object instantiation and use "Article.class" instead.(¤ÆÒúÿÿÿÿ8½Ş­ÑÃ+
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(·…Ïıÿÿÿÿ
+[squid:S1161":Add the "@Override" annotation above this method signature(½ÕöÜùÿÿÿÿ8¯Õ«ÑÃ+
+[squid:S1161":Add the "@Override" annotation above this method signature(ñº¶”øÿÿÿÿ8¯Õ«ÑÃ+

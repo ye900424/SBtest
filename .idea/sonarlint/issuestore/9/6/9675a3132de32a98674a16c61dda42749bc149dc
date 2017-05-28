@@ -1,0 +1,21 @@
+
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÃíŸùÿÿÿÿ
+asquid:S1871"LThis branch's code block is the same as the block for the branch on line 82.(Ö•á£
+O
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÏãîÒ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(êÓ¼Ùûÿÿÿÿ
+[squid:S1192"FDefine a constant instead of duplicating this literal "image" 5 times.(•ÿ½
+xsquid:S1192"cDefine a constant instead of duplicating this literal "å›å¤â€œ?â€æ˜¾ç¤ºæ­¤å¸®åŠ©èœå•" 3 times.(ôÈïß
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÃíŸùÿÿÿÿ
+:squid:S1166"%Either log or rethrow this exception.(”ı¾
+Lsquid:S1135"2Complete the task associated to this TODO comment.( ş¾£üÿÿÿÿ
+ysquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ
+T
+squid:S106";Replace this usage of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(üë°¹üÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÂÇ‰şÿÿÿÿ
+ysquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(óóø€ÿÿÿÿÿ

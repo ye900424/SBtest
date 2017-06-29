@@ -1,38 +1,38 @@
 
 V
-squid:S106";Replace this usage of System.out or System.err by a logger.(Ì¢ËÊ8ËÖÒÃ+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(û‡ãô8¬«²ÓÃ+
-U
-squid:S106";Replace this usage of System.out or System.err by a logger.(½Û¬X8ËÖÒÃ+
-T
-squid:S106";Replace this usage of System.out or System.err by a logger.(æ€”Êþÿÿÿÿ
-Zsquid:S2259">NullPointerException might be thrown as 'out' is nullable here(„¸Ç§8ËÖÒÃ+
-U
-squid:S106";Replace this usage of System.out or System.err by a logger.(½Û¬X8ËÖÒÃ+
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ì¢ËÊ8ò–ç»Ê+
+@squid:S1166"%Either log or rethrow this exception.(ÿÒ„p8ò–ç»Ê+
 [
-squid:S106";Replace this usage of System.out or System.err by a logger.(ªâŸœûÿÿÿÿ8áÀ²ÒÃ+
+squid:S106";Replace this usage of System.out or System.err by a logger.(æ€”Êþÿÿÿÿ8…ãå»Ê+
+Asquid:S1166"%Either log or rethrow this exception.(ï­£Ä8ò–ç»Ê+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ò–ç»Ê+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(û‡ãô8ò–ç»Ê+
 [
-squid:S106";Replace this usage of System.out or System.err by a logger.(æ€”Êþÿÿÿÿ8áÀ²ÒÃ+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(íÌ›÷8ËÖÒÃ+
-N
-squid:S106";Replace this usage of System.out or System.err by a logger.(àãÁ"
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ËÖÒÃ+
-œsquid:S1160"{Refactor this method to throw at most one checked exception instead of: java.io.IOException, javax.servlet.ServletException(ÿàðÿùÿÿÿÿ8ËÖÒÃ+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(Ì¢ËÊ8áÀ²ÒÃ+
-—squid:S1160"{Refactor this method to throw at most one checked exception instead of: java.io.IOException, javax.servlet.ServletException(ãˆ…Ë8ËÖÒÃ+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ËÖÒÃ+
-Asquid:S1166"%Either log or rethrow this exception.(ï­£Ä8ËÖÒÃ+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(÷ ì²8ËÖÒÃ+
-Zsquid:S3400"9Remove this method and declare a constant for this value.(Œ‘ÒŠÿÿÿÿÿ8ËÖÒÃ+
-{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8ËÖÒÃ+
+squid:S106";Replace this usage of System.out or System.err by a logger.(ªâŸœûÿÿÿÿ8ò–ç»Ê+
 U
-squid:S106";Replace this usage of System.out or System.err by a logger.(àãÁ"8áÀ²ÒÃ+
-bsquid:S2259"ANullPointerException might be thrown as 'digest' is nullable here(ëÊÎšûÿÿÿÿ8ËÖÒÃ+
+squid:S106";Replace this usage of System.out or System.err by a logger.(½Û¬X8…ãå»Ê+
+bsquid:S2259"ANullPointerException might be thrown as 'digest' is nullable here(ëÊÎšûÿÿÿÿ8ò–ç»Ê+
+œsquid:S1160"{Refactor this method to throw at most one checked exception instead of: java.io.IOException, javax.servlet.ServletException(ç¾¦Šüÿÿÿÿ8ò–ç»Ê+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(÷ ì²8ò–ç»Ê+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(íÌ›÷8ò–ç»Ê+
 [
-squid:S106";Replace this usage of System.out or System.err by a logger.(ªâŸœûÿÿÿÿ8ŒšÒÃ+
-@squid:S1166"%Either log or rethrow this exception.(ÿÒ„p8ËÖÒÃ+
-Zsquid:S2259">NullPointerException might be thrown as 'out' is nullable here(ËœïŸ8ËÖÒÃ+
+squid:S106";Replace this usage of System.out or System.err by a logger.(ªâŸœûÿÿÿÿ8ò–ç»Ê+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ò–ç»Ê+
+U
+squid:S106";Replace this usage of System.out or System.err by a logger.(½Û¬X8…ãå»Ê+
+{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8ò–ç»Ê+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(æ€”Êþÿÿÿÿ8…ãå»Ê+
+Zsquid:S2259">NullPointerException might be thrown as 'out' is nullable here(„¸Ç§8ò–ç»Ê+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ì¢ËÊ8ò–ç»Ê+
+U
+squid:S106";Replace this usage of System.out or System.err by a logger.(àãÁ"8…ãå»Ê+
+—squid:S1160"{Refactor this method to throw at most one checked exception instead of: java.io.IOException, javax.servlet.ServletException(ãˆ…Ë8ò–ç»Ê+
+Zsquid:S2259">NullPointerException might be thrown as 'out' is nullable here(ËœïŸ8ò–ç»Ê+
+Zsquid:S3400"9Remove this method and declare a constant for this value.(Œ‘ÒŠÿÿÿÿÿ8ò–ç»Ê+
+U
+squid:S106";Replace this usage of System.out or System.err by a logger.(àãÁ"8…ãå»Ê+

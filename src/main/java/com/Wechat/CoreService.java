@@ -44,7 +44,7 @@ public class CoreService {
             // 素材ID
             String mediaId = requestMap.get("MediaId");
             //
-            Long msgId = Long.parseLong(requestMap.get("MsgId"));
+            Long msgId = requestMap.get("MsgId") == null ? null : Long.parseLong(requestMap.get("MsgId"));
 
             // 回复文本消息
             TextMessage textMessage = new TextMessage();
@@ -59,7 +59,7 @@ public class CoreService {
             imageMessage.setToUserName(fromUserName);
             imageMessage.setFromUserName(toUserName);
             imageMessage.setCreateTime(new Date().getTime());
-            imageMessage.setMsgId(msgId);
+//            imageMessage.setMsgId(msgId);
             imageMessage.setMsgType(MessageUtil.REQ_MESSAGE_TYPE_IMAGE);
             imageMessage.setFuncFlag(0);
 
@@ -80,8 +80,8 @@ public class CoreService {
                     buffer.append("回复“?”显示此帮助菜单");
                     respContent = buffer.toString();
                 } else if (tmpList.contains(content)) {
-//                    respContent = "哈哈~~你个逗比，让你发你就发啊，我让你现在去吃/:shit呢，去啊！";
-                    respContent = "image";
+                    respContent = "哈哈~~你个逗比，让你发你就发啊，我让你现在去吃/:shit呢，去啊！";
+//                    respContent = "image";
 
                 } else if ("666".equals(content)) {
                     respContent = "image";

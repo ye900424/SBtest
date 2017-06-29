@@ -1,6 +1,8 @@
 package com.Wechat;
 
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.ServletException;
@@ -24,7 +26,7 @@ import java.util.Map;
 @RestController
 public class CheckToken{
 
-    @RequestMapping("/checkToken")
+    @RequestMapping(value = "/checkToken", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public void fun(HttpServletRequest req,HttpServletResponse resp){
         System.out.println("进入验证方法");
         Map map =  req.getParameterMap();
@@ -81,7 +83,8 @@ public class CheckToken{
         out.close();
     }
 
-    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    @RequestMapping(value = "/checkToken", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public void fun2(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         // 将请求、响应的编码均设置为UTF-8（防止中文乱码）
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");

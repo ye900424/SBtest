@@ -1,22 +1,22 @@
 
-squid:S1192"cDefine a constant instead of duplicating this literal "å›å¤â€œ?â€æ˜¾ç¤ºæ­¤å¸®åŠ©èœå•" 3 times.(ôÈïß8œë»Ê+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8œë»Ê+
+€squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8óÖ¯Ï+
+Usquid:S1854"9Remove this useless assignment to local variable "msgId".(¶ÊÊç8óÖ¯Ï+
+Asquid:S1166"%Either log or rethrow this exception.(”ı¾8óÖ¯Ï+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÃíŸùÿÿÿÿ8óÖ¯Ï+
+Fsquid:S1481"*Remove this unused "msgId" local variable.(¶ÊÊç8óÖ¯Ï+
+[squid:S1118":Add a private constructor to hide the implicit public one.(óóø€ÿÿÿÿÿ8óÖ¯Ï+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óÖ¯Ï+
+Ssquid:S1135"2Complete the task associated to this TODO comment.(üë°¹üÿÿÿÿ8óÖ¯Ï+
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÂÇ‰şÿÿÿÿ8óÖ¯Ï+
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(êÓ¼Ùûÿÿÿÿ8óÖ¯Ï+
+bsquid:S1192"FDefine a constant instead of duplicating this literal "image" 4 times.(•ÿ½8óÖ¯Ï+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÃíŸùÿÿÿÿ8óÖ¯Ï+
 V
-squid:S106";Replace this usage of System.out or System.err by a logger.(ÏãîÒ8œë»Ê+
-bsquid:S1192"FDefine a constant instead of duplicating this literal "image" 4 times.(•ÿ½8œë»Ê+
-Ssquid:S1135"2Complete the task associated to this TODO comment.(üë°¹üÿÿÿÿ8œë»Ê+
-€squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8œë»Ê+
-Usquid:S1854"9Remove this useless assignment to local variable "msgId".(¶ÊÊç8Ö®¯¼Ê+
-Asquid:S1166"%Either log or rethrow this exception.(”ı¾8œë»Ê+
-€squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8œë»Ê+
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(êÓ¼Ùûÿÿÿÿ8œë»Ê+
-[squid:S1118":Add a private constructor to hide the implicit public one.(óóø€ÿÿÿÿÿ8œë»Ê+
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÏãîÒ8óÖ¯Ï+
+Ssquid:S1135"2Complete the task associated to this TODO comment.( ş¾£üÿÿÿÿ8óÖ¯Ï+
+€squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8óÖ¯Ï+
+squid:S1192"cDefine a constant instead of duplicating this literal "å›å¤â€œ?â€æ˜¾ç¤ºæ­¤å¸®åŠ©èœå•" 3 times.(ôÈïß8óÖ¯Ï+
 [
-squid:S106";Replace this usage of System.out or System.err by a logger.(ÃíŸùÿÿÿÿ8œë»Ê+
-ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÂÇ‰şÿÿÿÿ8œë»Ê+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(ÃíŸùÿÿÿÿ8œë»Ê+
-Ssquid:S1135"2Complete the task associated to this TODO comment.( ş¾£üÿÿÿÿ8œë»Ê+
-Fsquid:S1481"*Remove this unused "msgId" local variable.(¶ÊÊç8Ö®¯¼Ê+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8œë»Ê+
+squid:S106";Replace this usage of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8óÖ¯Ï+

@@ -18,12 +18,16 @@ public class SessionConfig {
     private String hostname;
     @Value("${redis.port:6379}")
     private int port;
+    @Value("${redis.password:cao890809}")
+    private String password;
+
 
     @Bean
     public JedisConnectionFactory connectionFactory() {
         JedisConnectionFactory connection = new JedisConnectionFactory();
         connection.setHostName(hostname);
         connection.setPort(port);
+        connection.setPassword(password);
         return connection;
     }
 }

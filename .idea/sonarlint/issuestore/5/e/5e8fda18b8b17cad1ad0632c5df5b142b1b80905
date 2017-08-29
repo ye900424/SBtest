@@ -4,4 +4,7 @@ squid:S106";Replace this usage of System.out or System.err by a logger.(¾¦Ö‚þÿÿÿ
 [
 squid:S106";Replace this usage of System.out or System.err by a logger.(ÃÄù§ùÿÿÿÿ8Ú´½ÑÃ+
 [
+squid:S106";Replace this usage of System.out or System.err by a logger.(€×² úÿÿÿÿ8¢¿Ñù×+
+[
 squid:S106";Replace this usage of System.out or System.err by a logger.(÷ÒÀŒøÿÿÿÿ8Ú´½ÑÃ+
+]squid:S1854"<Remove this useless assignment to local variable "funInter".(«¬Î úÿÿÿÿ8“‚øø×+

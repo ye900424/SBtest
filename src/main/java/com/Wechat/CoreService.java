@@ -103,7 +103,7 @@ public class CoreService {
             }
             // 音频消息
             else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_VOICE)) {
-                respContent = "您发送的是音频消息！";
+                respContent = "您发送的是音频消息~"+requestMap.get("Recognition");
             }
             // 事件推送
             else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_EVENT)) {

@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SBTest" />
+        <module name="qweqwe" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="qweqwe" target="1.8" />
       <module name="SBTest" target="1.8" />
+      <module name="SpringImpl_v1.0" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

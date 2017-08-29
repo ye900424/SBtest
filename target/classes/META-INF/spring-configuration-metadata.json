@@ -16,6 +16,11 @@
       "sourceType": "com.tmp.MybatisesProperties"
     },
     {
+      "name": "redis",
+      "type": "com.redis.JedisConfig",
+      "sourceType": "com.redis.JedisConfig"
+    },
+    {
       "name": "redis.cache",
       "type": "com.redis.RedisConfig",
       "sourceType": "com.redis.RedisConfig"
@@ -238,6 +243,22 @@
       "name": "redis.cache.expire-seconds",
       "type": "java.lang.Integer",
       "sourceType": "com.redis.RedisConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "redis.hostname",
+      "type": "java.lang.String",
+      "sourceType": "com.redis.JedisConfig"
+    },
+    {
+      "name": "redis.password",
+      "type": "java.lang.String",
+      "sourceType": "com.redis.JedisConfig"
+    },
+    {
+      "name": "redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.redis.JedisConfig",
       "defaultValue": 0
     },
     {

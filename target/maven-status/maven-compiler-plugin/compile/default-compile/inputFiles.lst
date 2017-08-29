@@ -1,5 +1,6 @@
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/Wechat/MessageUtil.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/mapper/UserMapper.java
+/Users/caoyang/IdeaProjects/SBTest/src/main/java/com/TEST/SpringConfig.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/Wechat/reqBean/ReqBaseMessage.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/Wechat/reqBean/TextMessage.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/Wechat/reqBean/LocationMessage.java
@@ -16,10 +17,12 @@
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/start/Application.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/Wechat/respBean/MusicMessage.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/common/SessionShare/SessionInitializer.java
+/Users/caoyang/IdeaProjects/SBTest/src/main/java/com/TEST/Counter.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/Wechat/respBean/BaseMessage.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/tmp/MybatisProperties.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/common/SessionShare/SessionConfig.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/Controller/FunController.java
+/Users/caoyang/IdeaProjects/SBTest/src/main/java/com/TEST/test.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/Wechat/respBean/NewsMessage.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/domain/User.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/Wechat/respBean/LinkMessage.java
@@ -31,6 +34,7 @@
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/service/UserService.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/config/ConfigTest.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/tmp/MybatisPT.java
+/Users/caoyang/IdeaProjects/SBTest/src/main/java/com/TEST/Piano.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/common/MyBatisFactory.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/redis/JedisClusterConfig.java
 /Users/caoyang/IdeaProjects/SBTest/src/main/java/com/common/MyConstants.java

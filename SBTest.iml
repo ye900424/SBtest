@@ -125,5 +125,12 @@
     <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.4.6" level="project" />
     <orderEntry type="library" name="Maven: jline:jline:0.9.94" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty:3.7.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.rocketmq:rocketmq-client:3.5.9" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.rocketmq:rocketmq-srvutil:3.2.6" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.rocketmq:rocketmq-remoting:3.2.6" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.25.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.rocketmq:rocketmq-common:3.2.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
   </component>
 </module>

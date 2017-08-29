@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <classPathEntry
+            location="D:\repo\mysql-connector-java-5.1.26.jar" />
+    <context id="context1" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://121.42.253.157:3306/db_fun"
+                        userId="root" password="123456" />
+        <javaModelGenerator targetPackage="com.mybatis_tool_test.model"
+                            targetProject="/Users/caoyang/IdeaProjects/SBTest/src/main/java" />
+
+        <sqlMapGenerator targetPackage="com.mybatis_tool_test.mapper"
+                         targetProject="/Users/caoyang/IdeaProjects/SBTest/src/main/java" />
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.mybatis_tool_test.dao"
+                             targetProject="/Users/caoyang/IdeaProjects/SBTest/src/main/java">
+        </javaClientGenerator>
+
+        <table tableName="peculiar_approve" domainObjectName="Address"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" >
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+    </context>
+</generatorConfiguration>

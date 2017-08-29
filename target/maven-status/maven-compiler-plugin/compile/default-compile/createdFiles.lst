@@ -1,5 +1,6 @@
 com/Wechat/respBean/BaseMessage.class
 com/Wechat/respBean/MusicMessage.class
+com/TEST/test.class
 com/common/MyBatisFactory.class
 com/Wechat/reqBean/TextMessage.class
 com/tmp/MybatisesProperties.class
@@ -20,6 +21,7 @@ com/domain/Users.class
 com/Wechat/CoreService.class
 com/common/SessionShare/SessionConfig.class
 com/domain/User.class
+com/TEST/Counter.class
 com/Wechat/CheckToken.class
 com/Wechat/MessageUtil$1$1.class
 com/Wechat/respBean/Music.class
@@ -27,6 +29,8 @@ com/redis/JedisClusterConfig.class
 com/redis/MyRedisTemplate.class
 com/common/MyConstants.class
 com/Wechat/respBean/TextMessage.class
+com/TEST/Piano.class
+com/TEST/SpringConfig.class
 com/Wechat/MessageUtil.class
 com/mapper/UserMapper.class
 com/Wechat/reqBean/VoiceMessage.class

@@ -25,16 +25,26 @@ public class UserDao {
     }
 
     public int insertUserWithBackId(User user){
-//        SqlSessionFactory sqlSessionFactory = null;
-//        try {
-//            sqlSessionFactory = myBatisFactory.sqlSessionFactory(myBatisFactory.getDataSource());
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//        return sqlSessionFactory.openSession().insert("com.mapper.UserMapper.insertUserWithBackId",user);
-        userMapper.getAll();
-        return userMapper.insertUserWithBackId(user);
+        SqlSessionFactory sqlSessionFactory = null;
+        try {
+            sqlSessionFactory = myBatisFactory.sqlSessionFactory(myBatisFactory.getDataSource());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return sqlSessionFactory.openSession().insert("com.mapper.UserMapper.insertUserWithBackId",user);
+//        userMapper.getAll();
+//        return userMapper.insertUserWithBackId(user);
 
+    }
+
+    public Long selectTableTest(User user){
+        SqlSessionFactory sqlSessionFactory = null;
+        try {
+            sqlSessionFactory = myBatisFactory.sqlSessionFactory(myBatisFactory.getDataSource());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return (Long)sqlSessionFactory.openSession().selectOne("com.mapper.UserMapper.count",user);
     }
 
 }

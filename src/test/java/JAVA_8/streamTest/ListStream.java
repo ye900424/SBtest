@@ -3,9 +3,8 @@ package JAVA_8.streamTest;
 import com.google.common.base.Function;
 import com.google.common.collect.Lists;
 
-import java.util.HashMap;
+import java.util.Comparator;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -49,5 +48,17 @@ public class ListStream {
         });
 
         strList.stream().skip(9);
+
+
+
+        int max = list.stream().max(new Comparator<Integer>() {
+
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o1.compareTo(o2);
+            }
+
+        }).get();
+        System.out.println(max);
     }
 }

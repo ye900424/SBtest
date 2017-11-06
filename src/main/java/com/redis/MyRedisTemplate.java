@@ -19,7 +19,7 @@ public class MyRedisTemplate {
     private JedisCluster jedisCluster;
 
     @Autowired
-    private RedisConfig     redisConfig;
+    private RedisConfig redisConfig;
 
     @Autowired
     private User_fun user_fun;

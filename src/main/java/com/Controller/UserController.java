@@ -7,7 +7,6 @@ import com.redis.MyRedisTemplate;
 import com.service.UserService;
 import io.swagger.annotations.*;
 import org.apache.commons.lang3.StringUtils;
-import org.h2.engine.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/user")
-@Api("userController相关api")
+@Api("userController测试")
 public class UserController {
 
     @Autowired
@@ -76,6 +75,8 @@ public class UserController {
             @ApiResponse(code = 400, message = "请求参数没填好"),
             @ApiResponse(code = 404, message = "请求路径没有或页面跳转路径不对")
     })
+
+
     @RequestMapping(value = "/addUserWithBackId", method = RequestMethod.GET)
     public User addUserWithBackId(@RequestParam("username") String username,
                                   @RequestParam("password") String password) {

@@ -1,6 +1,5 @@
 package com.redis;
 
-import com.domain.User;
 import com.domain.User_fun;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

@@ -20,5 +20,7 @@ public interface UserMapper {
      */
     public int insertUserWithBackId(User user);
 
+    public int count(User user);
+
     public List<User> getAll();
 }

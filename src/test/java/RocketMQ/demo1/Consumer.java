@@ -3,7 +3,6 @@ package RocketMQ.demo1;
 /**
  * Created by caoyang on 2017/7/7.
  */
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer;
 import com.alibaba.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;

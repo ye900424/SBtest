@@ -27,13 +27,13 @@
     },
     {
       "name": "user",
-      "type": "com.domain.User",
-      "sourceType": "com.domain.User"
+      "type": "com.domain.Users",
+      "sourceType": "com.domain.Users"
     },
     {
       "name": "user",
-      "type": "com.domain.Users",
-      "sourceType": "com.domain.Users"
+      "type": "com.domain.User",
+      "sourceType": "com.domain.User"
     }
   ],
   "properties": [
@@ -264,13 +264,13 @@
     {
       "name": "user.id",
       "type": "java.lang.Integer",
-      "sourceType": "com.domain.User",
-      "defaultValue": 8
+      "sourceType": "com.domain.Users"
     },
     {
       "name": "user.id",
       "type": "java.lang.Integer",
-      "sourceType": "com.domain.Users"
+      "sourceType": "com.domain.User",
+      "defaultValue": 8
     },
     {
       "name": "user.list",
@@ -280,11 +280,16 @@
     {
       "name": "user.password",
       "type": "java.lang.String",
+      "sourceType": "com.domain.Users"
+    },
+    {
+      "name": "user.password",
+      "type": "java.lang.String",
       "sourceType": "com.domain.User",
       "defaultValue": "8888"
     },
     {
-      "name": "user.password",
+      "name": "user.username",
       "type": "java.lang.String",
       "sourceType": "com.domain.Users"
     },
@@ -293,11 +298,6 @@
       "type": "java.lang.String",
       "sourceType": "com.domain.User",
       "defaultValue": "haha"
-    },
-    {
-      "name": "user.username",
-      "type": "java.lang.String",
-      "sourceType": "com.domain.Users"
     }
   ],
   "hints": []

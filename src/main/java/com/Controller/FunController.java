@@ -6,9 +6,11 @@ import com.common.MyBatisConfig;
 import com.config.ConfigTest;
 import com.redis.JedisConfig;
 import com.service.FunInter;
+import com.service.TemplateTest.DotaFactory.DotaBeanFactory;
+import com.service.TemplateTest.DotaService;
+import com.service.TemplateTest.PlayerType;
 import com.tmp.MybatisesProperties;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -51,6 +53,7 @@ public class FunController {
     @Autowired
     JedisConfig jedisConfig;
 
+
     @RequestMapping("/config")
     public String config(){
 //        System.out.println(mybatisesProperties.getMybatises().toString());
@@ -84,5 +87,13 @@ public class FunController {
         Jedis jedis = jedisConfig.getJedisSource();
         jedis.set("1","test_ok!");
         return jedis.get("1");
+    }
+
+
+    @RequestMapping("/template/{i}")
+    public String TemplateTest(@PathVariable Integer i){
+        DotaService dotaService = DotaBeanFactory.beanMap.get(PlayerType.getEnumById(i));
+        dotaService.execute(i);
+        return "ok";
     }
 }

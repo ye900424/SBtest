@@ -21,6 +21,10 @@
 -- INSERT INTO tb_user(username, password) VALUES(#{username},#{password})
     </insert>
 
+    <select id="count" parameterType="com.domain.User" resultType="long">
+      SELECT count(1) from db_fun.tb_user where username = 'zhaojigang';
+    </select>
+
     <select id="getAll" resultType="User">
         select * from tb_user where id=1
     </select>

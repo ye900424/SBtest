@@ -1,13 +1,7 @@
-/*
 package com.Util;
 
-import cn.gov.zcy.fixed.aspect.avoid.recommit.annotation.AvoidReCommit;
-import cn.gov.zcy.fixed.aspect.avoid.recommit.exception.ReCommitException;
 import com.Annotation.AvoidReCommit;
-import com.dtdream.vanyar.redis.jedis.ms.JedisClientUtil;
 import com.google.common.collect.Maps;
-import io.terminus.common.exception.JsonResponseException;
-import io.terminus.pampas.common.UserUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -15,26 +9,23 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.util.ConcurrentReferenceHashMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import redis.clients.jedis.JedisCluster;
 
 import java.lang.reflect.Method;
 import java.util.Map;
 
-*/
+
 /**
  * Created by zhouzongkun on 2017/4/27.
- *//*
+ */
 
 @Aspect
 @Slf4j
 @Order(1)
 public class AvoidReCommitAspectJ {
-
-    @Autowired
-    private JedisClientUtil jedisClientUtil;
 
     private static final String KEY_SEPARATOR = "/";
 
@@ -42,17 +33,19 @@ public class AvoidReCommitAspectJ {
 
     private static final String REDIS_PREFIX = "fixed";
 
-    */
-/** class 对应的url地址*//*
+    private JedisCluster jedisCluster;
+
+
+/** class 对应的url地址*/
 
     private Map<Class<?>, String> classToUrlMap = new ConcurrentReferenceHashMap<>();
 
-    */
-/** method对应的url地址*//*
+
+/** method对应的url地址*/
 
     private Map<Method,String> methodToUrlMap = Maps.newConcurrentMap();
 
-    @Pointcut("@annotation(cn.gov.zcy.fixed.aspect.avoid.recommit.annotation.AvoidReCommit)")
+    @Pointcut("@annotation(com.Annotation.AvoidReCommit)")
     public void avoidReCommitMethod() {
         throw new UnsupportedOperationException();
     }
@@ -60,7 +53,7 @@ public class AvoidReCommitAspectJ {
     @Around(value = "avoidReCommitMethod()")
     public Object doAround(ProceedingJoinPoint proceedingJoinPoint) {
         try {
-            Long userId = UserUtil.getUserId();
+            Long userId = null;
 
             if (userId == null) {
                 throw new ReCommitException("防重提交获取用户失败");
@@ -134,14 +127,14 @@ public class AvoidReCommitAspectJ {
         return methodUrl;
     }
 
-    */
+
 /**
      * 获取方法上或者类上的AvoidReCommit注解
      *
      * @param method
      * @param clazz
      * @return
-     *//*
+     */
 
     private AvoidReCommit getAvoidReCommit(Method method, Class<?> clazz) {
         // 优先使用方法上的注解
@@ -200,14 +193,14 @@ public class AvoidReCommitAspectJ {
         }
         redisKey = REDIS_PREFIX + redisKey;
         try {
-            // 锁不存在时，设置锁并设置锁过期时间
-            if (REDIS_REPSONSE_OK.equalsIgnoreCase(jedisClientUtil.set(redisKey, "1", JedisClientUtil.SetPremise.NX,
-                    JedisClientUtil.ExpireType.Seconds,expiredTime))) {
-                // 实际方法处理
-                return proceedingJoinPoint.proceed();
-            } else {
-                throw new ReCommitException("出现用户同时多次提交事件：" + redisKey);
-            }
+//            // 锁不存在时，设置锁并设置锁过期时间
+//            if (REDIS_REPSONSE_OK.equalsIgnoreCase(jedisClientUtil.set(redisKey, "1", JedisClientUtil.SetPremise.NX,
+//                    JedisClientUtil.ExpireType.Seconds,expiredTime))) {
+//                // 实际方法处理
+//                return proceedingJoinPoint.proceed();
+//            } else {
+//                throw new ReCommitException("出现用户同时多次提交事件：" + redisKey);
+//            }
         } catch (ReCommitException re) {
             log.warn("出现用户同时多次提交事件：{}", re.getMessage(), re);
         } catch (Throwable throwable) {
@@ -216,4 +209,4 @@ public class AvoidReCommitAspectJ {
         return null;
     }
 }
-*/
+

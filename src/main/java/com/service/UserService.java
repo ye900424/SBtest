@@ -1,5 +1,6 @@
 package com.service;
 
+import com.Annotation.CaoCache;
 import com.dao.UserDao;
 import com.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,7 @@ public class UserService {
     private User user;
 
     public User getUser(){
+        System.out.println("****");
         return user;
     }
 
@@ -30,8 +32,14 @@ public class UserService {
         return user;
     }
 
+    @CaoCache
     public boolean addUser(String username, String password){
+        System.out.println("execute");
         return userDao.insertUser(username, password)==1?true:false;
+    }
+
+    protected void fun(){
+        System.out.println("12345");
     }
 
     public User addUserWithBackId(String username, String password){

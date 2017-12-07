@@ -17,5 +17,10 @@ public class TestService implements ApplicationContextAware{
         this.applicationContext = applicationContext;
     }
 
+
+    public void helloWorld(){
+        System.out.println("87654");
+    }
+
     
 }

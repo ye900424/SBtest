@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.common.MyConstants;
 import com.domain.User;
 import com.redis.MyRedisTemplate;
+import com.service.FunInter;
+import com.service.TestService;
 import com.service.UserService;
 import io.swagger.annotations.*;
 import org.apache.commons.lang3.StringUtils;
@@ -20,6 +22,9 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private TestService testService;
 
     @Autowired
     private MyRedisTemplate myRedisTemplate;
@@ -63,6 +68,8 @@ public class UserController {
     @RequestMapping(value = "/addUser", method = RequestMethod.POST)
     public boolean addUser(@RequestParam("username") String username,
                            @RequestParam("password") String password) {
+//        FunInter funInter= (FunInter)testService;
+        ((FunInter) testService).helloWorld();
         return userService.addUser(username, password);
     }
 

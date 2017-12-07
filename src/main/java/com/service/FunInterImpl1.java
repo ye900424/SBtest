@@ -19,6 +19,7 @@ public class FunInterImpl1 implements FunInter{
 
     @Override
     public String helloWorld() {
+        System.out.println("declare_ok");
         testService.toString();
         User user = userService.getUser();
         return "helloWorld_1";

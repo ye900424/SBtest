@@ -24,6 +24,8 @@ public class QQQ {
         final int FILE_QUEUE_SIZE = 10;// 阻塞队列大小
         final int SEARCH_THREADS = 100;// 线程个数
 
+        long startTime = System.currentTimeMillis();
+
         // 基于ArrayBlockingQueue的阻塞队列
         BlockingQueue<File> queue = new ArrayBlockingQueue<File>(
                 FILE_QUEUE_SIZE);
@@ -36,6 +38,10 @@ public class QQQ {
         //启动100个线程用来在文件中搜索指定的关键字
         for (int i = 1; i <= SEARCH_THREADS; i++)
             new Thread(new SearchTask(queue, keyword)).start();
+
+
+
+        System.out.println("耗时" +(System.currentTimeMillis() - startTime)/1000 + "秒");
     }
 }
 

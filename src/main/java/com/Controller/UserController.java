@@ -4,7 +4,6 @@ import com.alibaba.fastjson.JSON;
 import com.common.MyConstants;
 import com.domain.User;
 import com.redis.MyRedisTemplate;
-import com.service.FunInter;
 import com.service.TestService;
 import com.service.UserService;
 import io.swagger.annotations.*;
@@ -69,7 +68,7 @@ public class UserController {
     public boolean addUser(@RequestParam("username") String username,
                            @RequestParam("password") String password) {
 //        FunInter funInter= (FunInter)testService;
-        ((FunInter) testService).helloWorld();
+//        ((FunInter) testService).helloWorld();
         return userService.addUser(username, password);
     }
 

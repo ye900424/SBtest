@@ -1,5 +1,6 @@
 package com.dao;
 
+import com.Annotation.CheckDao;
 import com.common.MyBatisFactory;
 import com.domain.User;
 import com.mapper.UserMapper;
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Repository;
  * Created by caoyang on 2017/4/10.
  */
 @Repository
+@CheckDao
 public class UserDao {
 
     @Autowired(required=false)
@@ -31,7 +33,7 @@ public class UserDao {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return sqlSessionFactory.openSession().insert("com.mapper.UserMapper.insertUserWithBackId",user);
+        return sqlSessionFactory.openSession().insert("user.insertUserWithBackId",user);
 //        userMapper.getAll();
 //        return userMapper.insertUserWithBackId(user);
 
@@ -44,7 +46,7 @@ public class UserDao {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return (Long)sqlSessionFactory.openSession().selectOne("com.mapper.UserMapper.count",user);
+        return (Long)sqlSessionFactory.openSession().selectOne("user.count",user);
     }
 
 }

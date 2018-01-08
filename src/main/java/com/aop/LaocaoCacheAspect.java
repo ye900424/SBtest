@@ -22,7 +22,12 @@ public class LaocaoCacheAspect implements Ordered{
     //所有的方法
 //    @Pointcut("execution(* *(..))")
     //controller下面的类、下面所有的包
-    @Pointcut("execution(public * com.service.*.*(..)) && args(String,Integer)")
+//    @Pointcut("execution(public * com.service.*.*(..)) || execution(public * com.service.TemplateTest.*.*(..))")
+//    public void cutMethod() {
+//        //空方法，作切入点
+//    }
+
+    @Pointcut("execution(public * com.service.*.*(..))")
     public void cutMethod() {
         //空方法，作切入点
     }

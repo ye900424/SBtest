@@ -12,8 +12,8 @@ import model.Person;
 public class Producer {
     public static void main(String[] args){
         DefaultMQProducer producer = new DefaultMQProducer("Producer");
-//        producer.setNamesrvAddr("121.42.253.157:9876");
-        producer.setNamesrvAddr("10.100.1.143:9876");
+        producer.setNamesrvAddr("121.42.253.157:9876");
+//        producer.setNamesrvAddr("172.16.101.46:9876");
         try {
             producer.start();
 

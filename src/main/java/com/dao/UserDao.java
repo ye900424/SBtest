@@ -1,5 +1,6 @@
 package com.dao;
 
+import com.Annotation.CaoCache;
 import com.Annotation.CheckDao;
 import com.common.MyBatisFactory;
 import com.domain.User;
@@ -26,6 +27,7 @@ public class UserDao {
 //        return 1;
     }
 
+    @CaoCache
     public int insertUserWithBackId(User user){
         SqlSessionFactory sqlSessionFactory = null;
         try {
@@ -39,6 +41,7 @@ public class UserDao {
 
     }
 
+    @CaoCache
     public Long selectTableTest(User user){
         SqlSessionFactory sqlSessionFactory = null;
         try {

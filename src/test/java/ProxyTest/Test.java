@@ -14,5 +14,12 @@ public class Test {
 
         subjectProxy.doSomething(1,"参数2");
 
+
+        subject = new SubjectImpllllll();
+
+        Persion persion = (Persion) Proxy.newProxyInstance(Persion.class.getClassLoader(),new Class[]{Subject.class,Persion.class},new ProxyHandler(subject,null));
+
+        persion.doThis();
+
     }
 }

@@ -46,6 +46,9 @@ public class Test {
         Integer i = 3;
         Test.fun(persions);
         System.out.println(persions);
+
+
+        System.out.println(Runtime.getRuntime().availableProcessors());
     }
 
     public static void fun(List<Person> persions) {

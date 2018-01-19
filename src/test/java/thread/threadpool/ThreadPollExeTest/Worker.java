@@ -1,4 +1,4 @@
-package threadpool.ThreadPollExeTest;
+package thread.threadpool.ThreadPollExeTest;
 
 /**
  * Created by C.A.O on 2017/12/8.

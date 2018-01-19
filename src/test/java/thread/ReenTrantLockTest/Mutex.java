@@ -6,17 +6,18 @@ package thread.ReenTrantLockTest;
  * Project    :CMSM
  * Package    :thread.ReenTrantLockTest
  */
-import org.apache.commons.collections.map.LRUMap;
 
-import java.util.Map;
+
+import com.fasterxml.jackson.databind.util.LRUMap;
+
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Mutex {
 
-	private static final Map<String, Object> detailMutexMap = new LRUMap(100000);
+	private static final LRUMap detailMutexMap = new LRUMap(100000,100000);
 
-	private static final Map<String, Object> uvMutexMap = new LRUMap(10000);
+	private static final LRUMap uvMutexMap = new LRUMap(10000,100000);
 
 	private static final Lock uvLock = new ReentrantLock();
 

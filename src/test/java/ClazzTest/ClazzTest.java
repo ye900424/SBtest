@@ -1,4 +1,4 @@
-package simpleTest;
+package ClazzTest;
 
 /**
  * Created by C.A.O on 2017/12/21.

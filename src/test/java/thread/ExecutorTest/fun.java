@@ -20,7 +20,7 @@ public class fun {
         result.get();
         System.out.println("future.get数据："+result.get());
 
-//        FutureTask<MyBean> futureTask = new FutureTask<MyBean>(new CallableTest());
+        FutureTask<MyBean> futureTask = new FutureTask<MyBean>(new CallableTest());
 
 //        executor.submit(new RunableTest(),new CallableTest());
         executor.shutdown();

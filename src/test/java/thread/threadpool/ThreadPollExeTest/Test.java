@@ -1,4 +1,4 @@
-package threadpool.ThreadPollExeTest;
+package thread.threadpool.ThreadPollExeTest;
 
 import java.util.concurrent.*;
 
@@ -14,9 +14,13 @@ public class Test {
             System.out.println(i + "biaoji");
             Worker worker = new Worker("thread"+i);
             threadPoolExecutor.execute(worker);
+            threadPoolExecutor.submit(worker);
+
+            LinkedBlockingQueue<String> queue = new LinkedBlockingQueue<>(4);
 
             Executors.defaultThreadFactory();
         }
+
 
 
 

@@ -25,5 +25,9 @@ public class Person implements Serializable {
         this.name = name;
     }
 
+    public void print(){
+        System.out.println("1234");
+    }
+
 
 }

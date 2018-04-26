@@ -11,7 +11,6 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.env.Environment;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 import javax.sql.DataSource;
@@ -43,6 +42,7 @@ public class MyBatisFactory {
         props.put("url", config.getUrl());
         props.put("username", config.getUsername());
         props.put("password", config.getPassword());
+        props.put("maxActive", "20");
         return DruidDataSourceFactory.createDataSource(props);
     }
 
@@ -51,6 +51,27 @@ public class MyBatisFactory {
      */
     @Bean
     public SqlSessionFactory sqlSessionFactory(DataSource dataSource) throws Exception{
+        SqlSessionFactoryBean fb = new SqlSessionFactoryBean();
+        fb.setDataSource(dataSource);//指定数据源(这个必须有，否则报错)
+        //下边两句仅仅用于*.xml文件，如果整个持久层操作不需要使用到xml文件的话（只用注解就可以搞定），则不加
+        fb.setTypeAliasesPackage(config.getTypeAliasesPackage());//指定基包
+        fb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(config.getMapperLocations()));//指定xml文件位置
+
+        return fb.getObject();
+    }
+
+    /**
+     * 根据数据源创建SqlSessionFactory
+     */
+    @Bean(name = "sqlSessionFactory")
+    public SqlSessionFactory getSqlSessionFactory() throws Exception{
+        Properties props = new Properties();
+        props.put("driverClassName", config.getDriverClassName());
+        props.put("url", config.getUrl());
+        props.put("username", config.getUsername());
+        props.put("password", config.getPassword());
+        DataSource dataSource = DruidDataSourceFactory.createDataSource(props);
+
         SqlSessionFactoryBean fb = new SqlSessionFactoryBean();
         fb.setDataSource(dataSource);//指定数据源(这个必须有，否则报错)
         //下边两句仅仅用于*.xml文件，如果整个持久层操作不需要使用到xml文件的话（只用注解就可以搞定），则不加

@@ -10,7 +10,7 @@
         </commentGenerator>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://121.42.253.157:3306/db_fun"
+                        connectionURL="jdbc:mysql://39.105.17.168:3306/db_fun"
                         userId="root" password="123456" />
         <javaModelGenerator targetPackage="com.mybatis_tool_test.model"
                             targetProject="/Users/caoyang/IdeaProjects/SBTest/src/main/java" />

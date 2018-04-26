@@ -21,13 +21,13 @@ public class IDGeneratorTest {
 
         SocketAddress addr = new InetSocketAddress("localhost", 9999);
 
-        Jedis jedis1 = new Jedis("121.42.253.157", 6380);
+        Jedis jedis1 = new Jedis("39.105.17.168", 6380);
         jedis1.auth("cao890809");
         Lock lock1 = new RedisBasedDistributedLock(jedis1, LOCK_KEY, LOCK_EXPIRE, addr);
         IDGenerator g1 = new IDGenerator(lock1);
         IDConsumeTask consume1 = new IDConsumeTask(g1, "consume1");
 
-        Jedis jedis2 = new Jedis("121.42.253.157", 6380);
+        Jedis jedis2 = new Jedis("39.105.17.168", 6380);
         jedis2.auth("cao890809");
         Lock lock2 = new RedisBasedDistributedLock(jedis2, LOCK_KEY, LOCK_EXPIRE, addr);
         IDGenerator g2 = new IDGenerator(lock2);

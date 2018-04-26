@@ -5,5 +5,5 @@ spring:
     config:
       profile: test
       label: master
-      uri: http://121.42.253.157:8888/
+      uri: http://39.105.17.168:8888/
 #      uri: http://127.0.0.1:8888/

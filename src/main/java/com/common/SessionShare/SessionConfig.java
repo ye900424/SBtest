@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
-import org.springframework.session.web.context.AbstractHttpSessionApplicationInitializer;
 
 /**
  * Created by caoyang on 2017/5/23.
@@ -14,9 +13,9 @@ import org.springframework.session.web.context.AbstractHttpSessionApplicationIni
 @EnableRedisHttpSession(maxInactiveIntervalInSeconds= 1800)
 public class SessionConfig {
 
-    @Value("${redis.hostname:121.42.253.157}")
+    @Value("${redis.hostname:39.105.17.168}")
     private String hostname;
-    @Value("${redis.port:6379}")
+    @Value("${redis.port:6380}")
     private int port;
     @Value("${redis.password:cao890809}")
     private String password;

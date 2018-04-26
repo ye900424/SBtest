@@ -15,7 +15,7 @@ public class ZkTest {
 
     public void fun() throws IOException, KeeperException, InterruptedException {
         //创建一个Zookeeper实例，第一个参数为目标服务器地址和端口，第二个参数为Session超时时间，第三个为节点变化时的回调方法
-        ZooKeeper zk = new ZooKeeper("121.42.253.157:2181", 500000, new Watcher() {
+        ZooKeeper zk = new ZooKeeper("39.105.17.168:2181", 500000, new Watcher() {
             // 监控所有被触发的事件
             public void process(WatchedEvent event) {
                 //dosomething

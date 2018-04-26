@@ -23,7 +23,7 @@ public abstract class RedisAbstractLockService implements LockService {
 
 
     {
-        Jedis jedis = new Jedis("121.42.253.157", 6380);
+        Jedis jedis = new Jedis("39.105.17.168", 6380);
         jedis.auth("cao890809");
         this.jedis = jedis;
     }
@@ -73,7 +73,7 @@ public abstract class RedisAbstractLockService implements LockService {
      * 初始化jedisCluster
      */
     public void setJedisCluster() {
-        String[] serverArray = "121.42.253.157:7000".split(",");//获取服务器数组(这里要相信自己的输入，所以没有考虑空指针问题)
+        String[] serverArray = "39.105.17.168:7000".split(",");//获取服务器数组(这里要相信自己的输入，所以没有考虑空指针问题)
         Set<HostAndPort> nodes = new HashSet<>();
 
         for (String ipPort : serverArray) {

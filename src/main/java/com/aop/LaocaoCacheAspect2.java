@@ -31,9 +31,9 @@ public class LaocaoCacheAspect2 {
         Object obj = null;
 
         try {
-            log.info("方法名：" + joinPoint.toString());
-            log.info("方法名：" + joinPoint.toShortString());
-            log.info("方法名：" + joinPoint.toLongString());
+//            log.info("方法名：" + joinPoint.toString());
+//            log.info("方法名：" + joinPoint.toShortString());
+//            log.info("方法名：" + joinPoint.toLongString());
 
             Object args[] = joinPoint.getArgs();
 

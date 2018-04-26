@@ -7,6 +7,8 @@ import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * Created by caoyang on 2017/4/10.
  */
@@ -53,16 +55,16 @@ public class UserServiceImpl implements UserService {
      * 查询列表测试
      */
     public void selectByInfo(){
-//        for(int i = 0 ; i < 1000 ; i++){
+        for(int i = 0 ; i < 1000 ; i++){
 //            try {
 //                Thread.sleep(1000);
 //            } catch (InterruptedException e) {
 //                e.printStackTrace();
 //            }
-//            System.out.println(i + ":" + userDao.selectTableTest(null));
-//        }
-//        ConcurrentHashMap cMap = new ConcurrentHashMap();
-//        cMap.putIfAbsent("","");
+            System.out.println(i + ":" + userDao.selectTableTest(null));
+        }
+        ConcurrentHashMap cMap = new ConcurrentHashMap();
+        cMap.putIfAbsent("","");
 
         System.out.println("selectTableTest:=" + userDao.selectTableTest(null));
 

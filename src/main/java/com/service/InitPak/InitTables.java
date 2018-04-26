@@ -4,7 +4,6 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
@@ -20,7 +19,7 @@ public class InitTables {
     private SqlSessionFactory sqlSessionFactory;
 
 
-    @PostConstruct
+//    @PostConstruct
     public void initTable() {
         System.out.println("============666========");
         Connection conn = sqlSessionFactory.openSession().getConnection();

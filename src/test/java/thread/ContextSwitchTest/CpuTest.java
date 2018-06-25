@@ -8,10 +8,10 @@ package thread.ContextSwitchTest;
  */
 public class CpuTest {
     public static void main(String[] args) {
-        Thread thread = new Thread(new MyWork());
-        thread.start();
+//        Thread thread = new Thread(new MyWork());
+//        thread.start();
 
-//        printCallStatck();
+        printCallStatck();
 
     }
 

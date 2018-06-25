@@ -1,5 +1,7 @@
 package thread;
 
+import java.util.function.Function;
+
 /**
  * Author     :Administrator
  * Time       :16:56
@@ -42,6 +44,7 @@ public class Test {
     public static void main(String args[]) {
 
 
+
         TicketSouce mt = new TicketSouce();
 //        TicketSouce mt1 = new TicketSouce();
 //        TicketSouce mt2 = new TicketSouce();
@@ -60,8 +63,45 @@ public class Test {
 //        new Thread(mt, "c").start();
         System.out.println("main在此");
 
+        Test test = new Test();
+
+//        java.util.function.Consumer<String> consumer = test::dayin;
+//
+////        Consumer<Integer> consumer =  Integer::compareTo;
+//
+//        FixedThreadUtils.getInstance().singleRun(null,consumer);
+
+        String sss = "";
+        sss.toLowerCase();
+
+//        Function<String,String> function = String::toLowerCase;
+
+    }
 
 
+    @org.junit.Test
+    public void fun222(){
+        Function<Test,String> function1 = Test::dayin;
+        Function<Test,String> function = (x) -> x.dayin();
+
+        System.out.printf(function.apply(new Test()));
+
+
+        new Test().dayin();
+
+    }
+
+
+
+    public String dayin(){
+        System.out.println("执行singleRun");
+        return "hahaha";
+    }
+
+
+    public String dayin2(){
+        System.out.println("执行singleRun");
+        return "hahaha";
     }
 
 }

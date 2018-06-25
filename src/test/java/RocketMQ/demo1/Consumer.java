@@ -19,11 +19,13 @@ public class Consumer {
     public static void main(String[] args){
         DefaultMQPushConsumer consumer =
                 new DefaultMQPushConsumer("PushConsumer");
-        consumer.setNamesrvAddr("39.105.17.168:9876");
-//        consumer.setNamesrvAddr("172.16.101.46:9876");
+//        consumer.setNamesrvAddr("39.105.17.168:9876");
+        consumer.setNamesrvAddr("127.0.0.1:9876");
         try {
             //订阅PushTopic下Tag为push的消息
-            consumer.subscribe("PushTopic", "push");
+//            consumer.subscribe("PushTopic", "push");
+            consumer.subscribe("OrderTopic", "ceshi");
+
             //程序第一次启动从消息队列头取数据
             consumer.setConsumeFromWhere(
                     ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);

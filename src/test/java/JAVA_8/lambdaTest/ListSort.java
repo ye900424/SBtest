@@ -4,6 +4,7 @@ import model.Person;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Created by caoyang on 2017/8/9.
@@ -23,5 +24,8 @@ public class ListSort {
         System.out.println();
         list.sort((obj2, obj1) -> obj1.getName().compareTo(obj2.getName()));
         list.forEach(x -> System.out.println(x.getId() + "|"));
+
+
+        list.stream().map((Person x) -> x.getName()).collect(Collectors.toList());
     }
 }

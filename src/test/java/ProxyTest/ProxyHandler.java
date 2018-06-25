@@ -8,6 +8,7 @@ import java.lang.reflect.Method;
  */
 public class ProxyHandler implements InvocationHandler {
 
+    //真实对象
     Object object;
     Object[] argss;
 
@@ -17,6 +18,11 @@ public class ProxyHandler implements InvocationHandler {
     }
 
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        return method.invoke(object,args);
+        System.out.println("before invoke");
+        System.out.println("method:"+method);
+        Object result = method.invoke(object,args);
+        System.out.println("after invoke");
+        return result;
+
     }
 }

@@ -17,8 +17,8 @@ import java.util.List;
 public class Producer {
     public static void main(String[] args){
         DefaultMQProducer producer = new DefaultMQProducer("Producer");
-        producer.setNamesrvAddr("39.105.17.168:9876");
-//        producer.setNamesrvAddr("172.16.101.46:9876");
+//        producer.setNamesrvAddr("39.105.17.168:9876");
+        producer.setNamesrvAddr("127.0.0.1:9876");
         try {
             producer.start();
 

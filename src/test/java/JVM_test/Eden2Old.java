@@ -10,7 +10,7 @@ public class Eden2Old {
     private static int _1MB = 1024*1024;
 
     public static void main(String[] args) {
-        System.out.println(args[0]);
+//        System.out.println(args[0]);
         byte[] array1,array2,array3,array4 ;
         array1 = new byte[2 * _1MB];
         array2 = new byte[2 * _1MB];

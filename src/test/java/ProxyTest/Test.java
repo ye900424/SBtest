@@ -12,14 +12,21 @@ public class Test {
 
         Subject subjectProxy = (Subject) Proxy.newProxyInstance(Subject.class.getClassLoader(),new Class[]{Subject.class,Persion.class},new ProxyHandler(subject,null));
 
+        System.out.println(subjectProxy.getClass().getName());
+
         subjectProxy.doSomething(1,"参数2");
 
 
         subject = new SubjectImpllllll();
 
-        Persion persion = (Persion) Proxy.newProxyInstance(Persion.class.getClassLoader(),new Class[]{Subject.class,Persion.class},new ProxyHandler(subject,null));
+        Subject persion = (Subject) Proxy.newProxyInstance(Persion.class.getClassLoader(),new Class[]{Subject.class,Persion.class},new ProxyHandler(subject,null));
 
-        persion.doThis();
+        System.out.println(persion.getClass().getName());
+
+        persion.doSomething();
+
+
+
 
     }
 }

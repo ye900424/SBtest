@@ -12,7 +12,7 @@ import java.util.List;
  * Author     :Administrator
  * Time       :15:37
  * Project    :CMSM
- * Package    :zookeeper
+ * Package    :zookeepe
  */
 public class AppClient {
     private String groupNode = "sgroup";
@@ -24,8 +24,10 @@ public class AppClient {
      * 连接zookeeper
      */
     public void connectZookeeper() throws Exception {
-        zk = new ZooKeeper("192.168.251.58:2181,192.168.251.59:2181,192.168.251.60:2181", 5000, new Watcher() {
+        zk = new ZooKeeper("39.105.17.168:2181", 5000, new Watcher() {
             public void process(WatchedEvent event) {
+                System.out.println("event:"+event.toString());
+
                 // 如果发生了"/sgroup"节点下的子节点变化事件, 更新server列表, 并重新注册监听
                 if (event.getType() == Event.EventType.NodeChildrenChanged
                         && ("/" + groupNode).equals(event.getPath())) {

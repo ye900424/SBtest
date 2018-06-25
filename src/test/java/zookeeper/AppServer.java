@@ -10,23 +10,26 @@ import org.apache.zookeeper.*;
  */
 public class AppServer {
     private String groupNode = "sgroup";
-    private String subNode = "sub";
+    private String subNode = "sub2";
 
     /**
      * 连接zookeeper
      * @param address server的地址
      */
     public void connectZookeeper(String address) throws Exception {
-        ZooKeeper zk = new ZooKeeper("192.168.251.58:2181,192.168.251.59:2181,192.168.251.60:2181", 5000, new Watcher() {
-            public void process(WatchedEvent event) {
-                // 不做处理
+        ZooKeeper zk = new ZooKeeper("39.105.17.168:2181", 5000, new Watcher() {
+
+            @Override
+            public void process(WatchedEvent watchedEvent) {
+                // 如果发生了"/sgroup"节点下的子节点变化事件, 更新server列表, 并重新注册监听
+                System.out.println(watchedEvent.getType());
             }
         });
         // 在"/sgroup"下创建子节点
         // 子节点的类型设置为EPHEMERAL_SEQUENTIAL, 表明这是一个临时节点, 且在子节点的名称后面加上一串数字后缀
         // 将server的地址数据关联到新创建的子节点上
         String createdPath = zk.create("/" + groupNode + "/" + subNode, address.getBytes("utf-8"),
-                ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL_SEQUENTIAL);
+                ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
         System.out.println("create: " + createdPath);
     }
 
@@ -46,7 +49,7 @@ public class AppServer {
         }*/
 
         AppServer as = new AppServer();
-        as.connectZookeeper("192.168.251.58:8081");
+        as.connectZookeeper("192.168.251.58:8081222");
 //        as.connectZookeeper(args[0]);
 
         as.handle();

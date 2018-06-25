@@ -13,13 +13,13 @@ public class MyJob implements SimpleJob {
     @Override
     public void execute(ShardingContext content) {
         //do something
-        System.out.println("JobName:"+content.getJobName());
-        System.out.println("JobParameter:"+content.getJobParameter());
-        System.out.println("ShardingItem:"+content.getShardingItem());
-        System.out.println("ShardingParameter:"+content.getShardingParameter());
-        System.out.println("ShardingTotalCount:"+content.getShardingTotalCount());
-        System.out.println("TaskId:"+content.getTaskId());
-        System.out.println("---------------------------------------");
+//        System.out.println("JobName:"+content.getJobName());
+//        System.out.println("JobParameter:"+content.getJobParameter());
+//        System.out.println("ShardingItem:"+content.getShardingItem());
+//        System.out.println("ShardingParameter:"+content.getShardingParameter());
+//        System.out.println("ShardingTotalCount:"+content.getShardingTotalCount());
+//        System.out.println("TaskId:"+content.getTaskId());
+//        System.out.println("---------------------------------------");
 
     }
 }

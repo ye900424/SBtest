@@ -26,12 +26,13 @@ public class TransactionProducer {
         // 队列数
         producer.setCheckRequestHoldMax(2000);
         producer.setTransactionCheckListener(transactionCheckListener);
-        producer.setNamesrvAddr("39.105.17.168:9876");
+//        producer.setNamesrvAddr("39.105.17.168:9876");
+        producer.setNamesrvAddr("127.0.0.1:9876");
         producer.start();
 
         String[] tags = new String[] { "TagA", "TagB", "TagC", "TagD", "TagE" };
         TransactionExecuterImpl tranExecuter = new TransactionExecuterImpl();
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 5; i++) {
             try {
                 Message msg =
                         new Message("TopicTest", tags[i % tags.length], "KEY" + i,
@@ -39,16 +40,16 @@ public class TransactionProducer {
                 SendResult sendResult = producer.sendMessageInTransaction(msg, tranExecuter, null);
                 System.out.println(sendResult);
 
-                Thread.sleep(10);
+                Thread.sleep(100);
             }
             catch (MQClientException e) {
                 e.printStackTrace();
             }
         }
 
-        for (int i = 0; i < 100000; i++) {
-            Thread.sleep(1000);
-        }
+//        for (int i = 0; i < 100000; i++) {
+//            Thread.sleep(1000);
+//        }
 
         producer.shutdown();
 

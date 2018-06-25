@@ -1,12 +1,15 @@
 package com.service.InitPak;
 
 import com.Annotation.CaoCache;
+import com.Annotation.XSSFilter;
 import com.dao.UserDao;
+import com.domain.TestBean;
 import com.domain.User;
 import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -54,17 +57,21 @@ public class UserServiceImpl implements UserService {
     /**
      * 查询列表测试
      */
-    public void selectByInfo(){
-        for(int i = 0 ; i < 1000 ; i++){
+    @XSSFilter
+    public void selectByInfo(TestBean testBean, String str, List<TestBean> testBeans){
+        for(int i = 0 ; i < 2 ; i++){
 //            try {
 //                Thread.sleep(1000);
 //            } catch (InterruptedException e) {
 //                e.printStackTrace();
 //            }
-            System.out.println(i + ":" + userDao.selectTableTest(null));
+//            System.out.println(i + ":" + userDao.selectTableTest(null));
+            System.out.printf("123123");
         }
         ConcurrentHashMap cMap = new ConcurrentHashMap();
         cMap.putIfAbsent("","");
+
+        System.out.println("canshu :"+str);
 
         System.out.println("selectTableTest:=" + userDao.selectTableTest(null));
 

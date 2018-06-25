@@ -35,7 +35,11 @@ public class CheckDaoAspect {
 //        //空方法，作切入点
 //    }
 
-
+    /**
+     * Around切面处理
+     * @param joinPoint
+     * @return
+     */
     @Around("cutMethod()")
     public Object CheckDaoAround(final ProceedingJoinPoint joinPoint){
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();

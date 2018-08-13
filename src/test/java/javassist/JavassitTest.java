@@ -1,6 +1,6 @@
 package javassist;
 
-import model.Person;
+import com.model.Person;
 
 /**
  * Created by C.A.O on 2018/3/7.

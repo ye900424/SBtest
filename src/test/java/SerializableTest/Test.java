@@ -2,7 +2,7 @@ package SerializableTest;
 
 
 import lombok.Data;
-import model.Person;
+import com.model.Person;
 
 import java.io.*;
 

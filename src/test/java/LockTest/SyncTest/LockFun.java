@@ -1,4 +1,4 @@
-package LockTest;
+package LockTest.SyncTest;
 
 /**
  * Created by C.A.O on 2017/11/3.

@@ -3,9 +3,9 @@
  */
 public class TestSplit {
     public static void main(String[] args) {
-        String str = "zcy.onlineInquiry.purchase,zcy.onlineInquiry.agency,zcy.onlineInquiry.superviser.financeCheck,zcy.customer.businessSearch,zcy.onlineInquiry.superviser.search.district,zcy.onlineInquiry.superviser.search.dep,zcy.onlineInquiry.purchase.supserSearch,zcy.commission.purchase.order.commit,zcy.commission.purchase.order.firstCheck,zcy.commission.purchase.order.secondCheck,zcy.commission.purchase.order.finalCheck,zcy.commission.agency.organizationCheck,zcy.commission.agency.centerCheck,zcy.agreementSupply.supplier.bidding";
+        String str = "";
 
-        String[] array = str.split(",",100);
+        String[] array = str.split("\\|",100);
 
         System.out.println(array.length);
         for(String str22 : array){

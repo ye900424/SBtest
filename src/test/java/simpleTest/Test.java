@@ -1,7 +1,7 @@
 package simpleTest;
 
 import com.google.common.collect.Lists;
-import model.Person;
+import com.model.Person;
 
 import java.util.ArrayList;
 import java.util.Date;

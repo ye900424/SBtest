@@ -1,6 +1,6 @@
 package simpleTest;
 
-import model.Person;
+import com.model.Person;
 
 /**
  * Created by caoyang on 2017/6/7.

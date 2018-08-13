@@ -1,6 +1,6 @@
 package thread.CountDownLatchTest;
 
-import model.Person;
+import com.model.Person;
 
 import java.util.concurrent.CountDownLatch;
 

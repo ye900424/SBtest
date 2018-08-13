@@ -8,7 +8,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class SptingBeanTest {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext();
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring-simple.xml");
+//        ApplicationContext context = new ClassPathXmlApplicationContext();
         context.getBean("orOrderService");
     }
 }

@@ -1,6 +1,5 @@
 package com.Util;
 
-import com.service.FunInter;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -19,8 +18,8 @@ public class AppUtil implements ApplicationContextAware{
     }
 
     public static Object getBean(String className){
-        applicationContext.getBean(FunInter.class).helloWorld();
-        applicationContext.getBeansOfType(FunInter.class).get("funInterImpl2").helloWorld();
+//        applicationContext.getBean(FunInter.class).helloWorld();
+//        applicationContext.getBeansOfType(FunInter.class).get("funInterImpl2").helloWorld();
         return applicationContext.getBean(className);
     }
 }

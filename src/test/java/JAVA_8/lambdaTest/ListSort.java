@@ -1,6 +1,6 @@
 package JAVA_8.lambdaTest;
 
-import model.Person;
+import com.model.Person;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -36,7 +36,8 @@ public class DynamicAddJob implements SimpleJob {
 
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring/spring_laocao.xml");
-        ZookeeperRegistryCenter zookeeperRegistryCenter = context.getBean(ZookeeperRegistryCenter.class);
+//        ZookeeperRegistryCenter zookeeperRegistryCenter = context.getBean(ZookeeperRegistryCenter.class);
+        ZookeeperRegistryCenter zookeeperRegistryCenter = (ZookeeperRegistryCenter)context.getBean("");
         long now = System.currentTimeMillis();
         for (int i = 0; i < 100; i++) {
             String cron = getCron(new Date(now + (i + 1) * 50000));

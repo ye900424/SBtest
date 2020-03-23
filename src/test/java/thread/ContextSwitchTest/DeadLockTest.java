@@ -11,7 +11,7 @@ public class DeadLockTest {
         dlThread thread1 = new dlThread(0);
         dlThread thread2 = new dlThread(1);
         new Thread(thread1,"线程1").start();
-        new Thread(thread2,"线程1").start();
+        new Thread(thread2,"线程2").start();
     }
 }
 

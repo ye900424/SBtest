@@ -1,6 +1,6 @@
 package RocketMQ.OrderMQTest;
 
-import RocketMQ.BaseProfucer;
+import RocketMQ.BaseProducer;
 import com.alibaba.rocketmq.client.exception.MQBrokerException;
 import com.alibaba.rocketmq.client.exception.MQClientException;
 import com.alibaba.rocketmq.client.producer.MessageQueueSelector;
@@ -15,7 +15,7 @@ import java.util.List;
  * Created by C.A.O on 2018/6/3.
  * rocketMq发送顺序消息
  */
-public class OrderProducer extends BaseProfucer{
+public class OrderProducer extends BaseProducer {
 
     public static void main(String[] args) {
         OrderProducer orderProducer = new OrderProducer();
@@ -26,7 +26,7 @@ public class OrderProducer extends BaseProfucer{
             for (int i = 0; i < 50; i++) {
                 int orderId = i % 6;
                 try {
-                    Message msg = new Message("OrderTopic", tags[i % tags.length], "KEY" + i,
+                    Message msg = new Message("OrderTopic_laocao", tags[i % tags.length], "KEY" + i,
                                     ("orderId" + orderId+":" + "Hello RocketMQ " + i).getBytes());
                     SendResult sendResult = producer.send(msg, new MessageQueueSelector() {
                         @Override

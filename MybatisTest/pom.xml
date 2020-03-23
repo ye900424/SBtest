@@ -48,7 +48,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.38</version>
+            <version>RELEASE</version>
         </dependency>
         <!--log4j日志包 -->
         <dependency>
@@ -61,8 +61,9 @@
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
-            <version>3.4.6</version>
-            <!--<version>3.4.4</version>-->
+            <!--<version>3.4.6</version>-->
+            <!--<version>3.4.5</version>-->
+            <version>3.4.4</version>
         </dependency>
         <!-- JUnit单元测试工具 -->
         <dependency>
@@ -82,11 +83,7 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>RELEASE</version>
-        </dependency>
+
     </dependencies>
     <build>
         <resources>

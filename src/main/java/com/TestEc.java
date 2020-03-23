@@ -21,7 +21,6 @@ public class TestEc {
 //        testEc.cache.put(element);
 //        testEc.cache.get("caoyang");
 
-
         File file = new File("/Users/caoyang/IdeaProjects/SBTest/target/test-classes/ehcache.xml");
 
 

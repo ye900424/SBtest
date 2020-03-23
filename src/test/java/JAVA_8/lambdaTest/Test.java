@@ -1,5 +1,7 @@
 package JAVA_8.lambdaTest;
 
+import com.model.Person;
+
 import java.util.function.Function;
 
 /**
@@ -22,6 +24,11 @@ public class Test {
 
 
         System.out.println("cpu核数" + Runtime.getRuntime().availableProcessors());
+
+        TestInterface testInterface = rrrr -> {
+            Person person = new Person();
+            return person;
+        };
 
     }
 }

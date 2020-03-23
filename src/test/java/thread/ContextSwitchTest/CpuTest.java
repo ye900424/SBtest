@@ -1,5 +1,7 @@
 package thread.ContextSwitchTest;
 
+import com.model.Person;
+
 /**
  * Author     :Administrator
  * Time       :16:21
@@ -38,5 +40,11 @@ class MyWork implements Runnable {
         while(true){
             System.out.println("Thread name="+System.currentTimeMillis());
         }
+    }
+
+
+    public static  void method(){
+        Person person = new Person();
+//       synchronized (person){......}
     }
 }

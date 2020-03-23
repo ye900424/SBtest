@@ -5,6 +5,10 @@
       <module fileurl="file://$USER_HOME$/Test/ConfigPro/ConfigPro.iml" filepath="$USER_HOME$/Test/ConfigPro/ConfigPro.iml" />
       <module fileurl="file://$PROJECT_DIR$/MybatisTest/MybatisTest.iml" filepath="$PROJECT_DIR$/MybatisTest/MybatisTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/SBTest.iml" filepath="$PROJECT_DIR$/SBTest.iml" />
+      <module fileurl="file://$USER_HOME$/Util/greys-anatomy/greys.iml" filepath="$USER_HOME$/Util/greys-anatomy/greys.iml" />
+      <module fileurl="file://$USER_HOME$/Util/greys-anatomy/agent/greys-agent.iml" filepath="$USER_HOME$/Util/greys-anatomy/agent/greys-agent.iml" />
+      <module fileurl="file://$USER_HOME$/Util/greys-anatomy/core/greys-core.iml" filepath="$USER_HOME$/Util/greys-anatomy/core/greys-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-eureka/testeureka.iml" filepath="$PROJECT_DIR$/test-eureka/testeureka.iml" />
     </modules>
   </component>
 </project>

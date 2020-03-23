@@ -6,6 +6,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+
 /**
  * Created by C.A.O on 2017/10/12.
  * 首先是一个简单的Spring Bean，调用Bean自身的方法和Bean级生命周期接口方法，为了方便演示，
@@ -103,5 +105,10 @@ public class Person implements BeanFactoryAware, BeanNameAware, InitializingBean
     // 通过<bean>的destroy-method属性指定的初始化方法
     public void myDestory() {
         System.out.println("【destroy-method】调用<bean>的destroy-method属性指定的初始化方法");
+    }
+
+    @PostConstruct
+    public void postXXXX(){
+        System.out.println("【PostConstruct注解】");
     }
 }

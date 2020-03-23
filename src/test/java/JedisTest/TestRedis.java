@@ -4,15 +4,14 @@ package JedisTest;
  * Created by caoyang on 2017/7/27.
  */
 
+import org.junit.Before;
+import org.junit.Test;
+import redis.clients.jedis.Jedis;
+
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-
-import org.junit.Before;
-import org.junit.Test;
-
-import redis.clients.jedis.Jedis;
 
 public class TestRedis {
     private Jedis jedis;
@@ -23,6 +22,15 @@ public class TestRedis {
         jedis = new Jedis("39.105.17.168", 6380);
         //权限认证
         jedis.auth("cao890809");
+    }
+
+
+    @Test
+    public void testNx(){
+        System.out.println(jedis.set("laocao", "LOCK", "nx", "ex", 20));
+        System.out.println("laocao:" + jedis.get("laocao"));
+        System.out.println("ttl:"+ jedis.ttl("laocao"));
+        System.out.println(jedis.set("laocao", "LOCK", "nx", "ex", 20));
     }
 
     /**

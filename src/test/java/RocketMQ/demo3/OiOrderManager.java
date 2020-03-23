@@ -1,9 +1,6 @@
 package RocketMQ.demo3;
 
 import RocketMQ.TxTest.MqTranProducer;
-import com.alibaba.rocketmq.client.producer.LocalTransactionExecuter;
-import com.alibaba.rocketmq.client.producer.LocalTransactionState;
-import com.alibaba.rocketmq.common.message.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -20,15 +17,7 @@ public class OiOrderManager extends AbstractTransactExecuter{
         //1、组装消息数据
         String message = "";
         mqTranProducer.sendTMsg(message,this);
-        mqTranProducer.sendTMsg(message,new LocalTransactionExecuter(){
-            @Override
-            public LocalTransactionState executeLocalTransactionBranch(Message msg, Object arg) {
 
-
-
-                return null;
-            }
-        });
         //doLocalTranaction
 
         return true;
@@ -38,6 +27,15 @@ public class OiOrderManager extends AbstractTransactExecuter{
     @Override
     @Transactional(rollbackFor = Exception.class)
     boolean doLocalTranaction(Object obj) {
-        return false;
+        // 处理本地事务
+        try{
+
+
+            return true;
+        }catch(Exception e){
+
+            return false;
+        }
+
     }
 }

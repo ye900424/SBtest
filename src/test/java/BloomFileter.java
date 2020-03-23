@@ -230,8 +230,8 @@ public class BloomFileter implements Serializable {
         System.out.println(fileter.addIfNotExist("5555555555555"));
         System.out.println(fileter.addIfNotExist("6666666666666"));
         System.out.println(fileter.addIfNotExist("1111111111111"));
-        fileter.saveFilterToFile("C:\\Users\\john\\Desktop\\1111\\11.obj");
-        fileter = readFilterFromFile("C:\\Users\\john\\Desktop\\111\\11.obj");
+//        fileter.saveFilterToFile("C:\\Users\\john\\Desktop\\1111\\11.obj");
+//        fileter = readFilterFromFile("C:\\Users\\john\\Desktop\\111\\11.obj");
         System.out.println(fileter.getUseRate());
         System.out.println(fileter.addIfNotExist("1111111111111"));
     }

@@ -1,11 +1,11 @@
 package JedisTest.RedisNX;
 
+import redis.clients.jedis.Jedis;
+
 import java.io.IOException;
 import java.net.SocketAddress;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
-
-import redis.clients.jedis.Jedis;
 
 /**
  * <pre>
@@ -62,7 +62,6 @@ public class RedisBasedDistributedLock extends AbstractLock {
                 setExclusiveOwnerThread(Thread.currentThread());
                 return true;
             }
-
             String value = jedis.get(lockKey);
             if (value != null && isTimeExpired(value)) { // lock is expired
                 // 假设多个线程(非单jvm)同时走到这里

@@ -1,8 +1,11 @@
 package com.test;
 
+import com.dao.BookDAO;
 import com.dto.BookDto;
 import com.model.Book;
 import com.service.BookService;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -21,6 +24,8 @@ import static org.junit.Assert.assertNotNull;
 public class TestBookService {
 
     static BookService bookservice;
+
+    SqlSessionFactory sqlSessionFactory;
 
     @BeforeClass
     public static void before(){
@@ -91,5 +96,18 @@ public class TestBookService {
         Book entity1=new Book(0, "Hibernate 第八版", 78.1, new Date());
         Book entity2=new Book(0, "Hibernate 第八版", 78.1, new Date());
         assertEquals(2, bookservice.add(entity1, entity2));
+    }
+
+
+    @Test
+    public void testAdd2() {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        try {
+            BookDAO bookMapper = sqlSession.getMapper(BookDAO.class);
+            bookMapper.getAllBooks();
+            sqlSession.commit();//这里一定要提交，不然数据进不去数据库中
+        } finally {
+            sqlSession.close();
+        }
     }
 }

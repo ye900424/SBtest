@@ -2,164 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86f3b8e0-9839-4fa2-b9f4-7bd2f19bdb55" name="Default" comment="123123">
-      <change afterPath="$PROJECT_DIR$/src/test/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BufferedOutputStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CRC16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DailyIdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ES/EsMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ES/EsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ES/JestUntil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HashWheelTimer/HashedWheelBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HashWheelTimer/HashedWheelTimerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JAVA_8/lambdaTest/TestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JAVA_8/optional/OptionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JAVA_8/stream/FilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JAVA_8/stream/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JdbcTest/PreparedStatementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JedisTest/DistributeLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LockTest/SyncTest/FuleiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PatternTest/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PatternTest/builder/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PatternTest/decorate/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PatternTest/factory/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PatternTest/strategy/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PatternTest/template/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PrintEvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RandomOnDuty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RandomPP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RandomTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RocketMQ/OrderTransactionListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RocketMQ/SyncProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RocketMQ/newTx/TransactionListenerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RocketMQ/newTx/TransactionProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TempTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TreeTest/treemap/TreeMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TreeTest/treemap/test1/SortedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TreeTest/treemap/test1/TreeMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ZeroEvenOdd2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/Danli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/Deadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/DiningPhilosophers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/ErFen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/ExcelTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/FileRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/HuiWenZichuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/JustOneNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/LoadAndCountFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/LongestSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/LoopHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/MagicalString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/ProviderAndComsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/ZeroEvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/array/ArrayJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/array/ArrayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/fib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/linked/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/linked/ReverseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/linked/TwoNumAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/linked/Two_Two_Flip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/sort/QuickSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/sort/QuickSort3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/sort/TuoTuo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/tree/bintree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cacheTest/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chain/base/Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chain/base/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chain/base/NullCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chain/base/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chain/base/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/chain/niubi/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fanxing/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fanxing/ConvertUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fanxing/Fun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fanxing/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fanxing/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/inject/TestReflect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/inject/TypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nacos/Pub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nacos/Sub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/netty/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/netty/ClientNetty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/netty/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/netty/MarshallingCodefactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/netty/ServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/netty/ServerNetty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/netty/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/netty/nio/NioEchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/observer/Baby.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/observer/BabyHealthObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/observer/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/redis/SortedSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thread/ContextSwitchTest/DeadLockTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thread/ExecutorTest/ScheduledExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thread/ThreadPoolExecutor/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/validateTest/simpleTest/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/validateTest/simpleTest/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/validateTest/test2/Inte1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/validateTest/test2/Inte2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/validateTest/test2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/validateTest/test2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/validateTest/test2/ValidationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/validateTest/test2/ValidationUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zhengze/MatcherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zookeeper/LLLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zookeeper/ZooKeeperDel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-eureka/src/main/java/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_rocketmq_rocketmq_client_3_5_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_rocketmq_rocketmq_common_3_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_rocketmq_rocketmq_remoting_3_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_rocketmq_rocketmq_srvutil_3_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_25_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisTest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisTest/src/main/java/com/test/TestBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisTest/src/main/java/com/test/TestBookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SBTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SBTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/TestEc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/TestEc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTest/BeanLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTest/BeanLifeCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springTest/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springTest/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BloomFileter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BloomFileter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JAVA_8/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JAVA_8/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JAVA_8/lambdaTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JAVA_8/lambdaTest/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JAVA_8/stream/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JAVA_8/stream/StreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JedisTest/RedisNX/RedisBasedDistributedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JedisTest/RedisNX/RedisBasedDistributedLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JedisTest/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JedisTest/TestRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LockTest/SyncTest/LockFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LockTest/SyncTest/LockFun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LockTest/SyncTest/SyncTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LockTest/SyncTest/SyncTimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LockTest/SyncTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LockTest/SyncTest/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RocketMQ/BaseProfucer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RocketMQ/BaseProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RocketMQ/OrderMQTest/OrderProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RocketMQ/OrderMQTest/OrderProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RocketMQ/demo3/OiOrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RocketMQ/demo3/OiOrderManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test_S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_S.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/thread/ContextSwitchTest/CpuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thread/ContextSwitchTest/CpuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/thread/ContextSwitchTest/DeadLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thread/ContextSwitchTest/DeadLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/thread/MyExe/NamedThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thread/MyExe/NamedThreadFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bs/array/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs/array/ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bs/fib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs/fib.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,7 +251,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/PatternTest/strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bintree">
+  <component name="RunManager" selected="Application.fib">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -436,20 +281,6 @@
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bs.LongestSubString" />
-      <module name="SBTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bs.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -509,6 +340,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bs.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs.fib" />
+      <module name="SBTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -671,20 +516,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.StackTest" />
-      <item itemvalue="Application.LongestSubString" />
       <item itemvalue="Application.ReverseTest" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.bintree" />
       <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.fib" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fib" />
         <item itemvalue="Application.bintree" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.ReverseTest" />
-        <item itemvalue="Application.LongestSubString" />
       </list>
     </recent_temporary>
   </component>
@@ -1023,6 +868,7 @@
       <workItem from="1583979867707" duration="7491000" />
       <workItem from="1584233739049" duration="7084000" />
       <workItem from="1584495235579" duration="981000" />
+      <workItem from="1584951895931" duration="1480000" />
     </task>
     <task id="LOCAL-00001" summary="修改sbtest。yml">
       <created>1501051107082</created>
@@ -1141,45 +987,45 @@
     <state width="437" height="466" key="DebuggerActiveHint/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1579074657798" />
     <state width="578" height="346" key="DebuggerActiveHint/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1583981630622" />
     <state width="523" height="346" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1580788611977" />
-    <state width="1238" height="279" key="GridCell.Tab.0.bottom" timestamp="1584234574858">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2518" height="400" key="GridCell.Tab.0.bottom" timestamp="1584953312010">
+      <screen x="-512" y="-1080" width="2560" height="1080" />
     </state>
     <state width="2518" height="263" key="GridCell.Tab.0.bottom/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1583296178804" />
     <state width="1213" height="260" key="GridCell.Tab.0.bottom/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583924228100" />
-    <state width="2518" height="285" key="GridCell.Tab.0.bottom/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1583114733176" />
+    <state width="2518" height="400" key="GridCell.Tab.0.bottom/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1584953312010" />
     <state width="1238" height="279" key="GridCell.Tab.0.bottom/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1583993393274" />
     <state width="2518" height="314" key="GridCell.Tab.0.bottom/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1579487264100" />
     <state width="1213" height="180" key="GridCell.Tab.0.bottom/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1583981398742" />
     <state width="1238" height="279" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584234574858" />
     <state width="1238" height="279" key="GridCell.Tab.0.bottom/25.23.1255.777@25.23.1255.777" timestamp="1584233569807" />
-    <state width="1238" height="279" key="GridCell.Tab.0.center" timestamp="1584234574856">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2518" height="400" key="GridCell.Tab.0.center" timestamp="1584953312005">
+      <screen x="-512" y="-1080" width="2560" height="1080" />
     </state>
     <state width="2518" height="263" key="GridCell.Tab.0.center/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1583296178801" />
     <state width="1213" height="260" key="GridCell.Tab.0.center/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583924228097" />
-    <state width="2518" height="285" key="GridCell.Tab.0.center/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1583114733170" />
+    <state width="2518" height="400" key="GridCell.Tab.0.center/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1584953312005" />
     <state width="1238" height="279" key="GridCell.Tab.0.center/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1583993393270" />
     <state width="2518" height="314" key="GridCell.Tab.0.center/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1579487264095" />
     <state width="1213" height="180" key="GridCell.Tab.0.center/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1583981398737" />
     <state width="1238" height="279" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584234574856" />
     <state width="1238" height="279" key="GridCell.Tab.0.center/25.23.1255.777@25.23.1255.777" timestamp="1584233569802" />
-    <state width="1238" height="279" key="GridCell.Tab.0.left" timestamp="1584234574855">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2518" height="400" key="GridCell.Tab.0.left" timestamp="1584953312001">
+      <screen x="-512" y="-1080" width="2560" height="1080" />
     </state>
     <state width="2518" height="263" key="GridCell.Tab.0.left/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1583296178799" />
     <state width="1213" height="260" key="GridCell.Tab.0.left/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583924228095" />
-    <state width="2518" height="285" key="GridCell.Tab.0.left/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1583114733167" />
+    <state width="2518" height="400" key="GridCell.Tab.0.left/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1584953312001" />
     <state width="1238" height="279" key="GridCell.Tab.0.left/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1583993393266" />
     <state width="2518" height="314" key="GridCell.Tab.0.left/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1579487264092" />
     <state width="1213" height="180" key="GridCell.Tab.0.left/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1583981398734" />
     <state width="1238" height="279" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584234574855" />
     <state width="1238" height="279" key="GridCell.Tab.0.left/25.23.1255.777@25.23.1255.777" timestamp="1584233569800" />
-    <state width="1238" height="279" key="GridCell.Tab.0.right" timestamp="1584234574857">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="2518" height="400" key="GridCell.Tab.0.right" timestamp="1584953312008">
+      <screen x="-512" y="-1080" width="2560" height="1080" />
     </state>
     <state width="2518" height="263" key="GridCell.Tab.0.right/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1583296178803" />
     <state width="1213" height="260" key="GridCell.Tab.0.right/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583924228098" />
-    <state width="2518" height="285" key="GridCell.Tab.0.right/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1583114733172" />
+    <state width="2518" height="400" key="GridCell.Tab.0.right/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1584953312008" />
     <state width="1238" height="279" key="GridCell.Tab.0.right/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1583993393272" />
     <state width="2518" height="314" key="GridCell.Tab.0.right/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1579487264097" />
     <state width="1213" height="180" key="GridCell.Tab.0.right/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1583981398740" />
@@ -1809,12 +1655,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/bs/fib.java</url>
-          <line>16</line>
+          <line>19</line>
           <option name="timeStamp" value="374" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/bs/fib.java</url>
-          <line>27</line>
+          <line>30</line>
           <option name="timeStamp" value="375" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

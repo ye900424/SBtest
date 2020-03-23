@@ -1,5 +1,7 @@
 package bs;
 
+import bs.array.ArrayUtil;
+
 /**
  * 生成长度为N的斐波拉契数列
  *
@@ -13,7 +15,8 @@ public class fib {
         int[] arr = new int[N];
         arr[0] = 1;
         arr[1] = 1;
-
+        createFib(N,0,arr);
+        ArrayUtil.print(createfib(N,arr));
         System.out.println(createfib(N,arr));
     }
 
@@ -26,6 +29,22 @@ public class fib {
             arr[i] = arr[i-1] + arr[i-2];
         }
         return arr;
+    }
+
+
+    static void createFib(int N , int idx, int[] arr){
+        if(idx == N){
+            return ;
+        }
+        if(idx == 0){
+            arr[0] = 0;
+        }else if(idx == 1){
+            arr[1] = 1;
+        }else{
+            arr[idx] = arr[idx - 2] + arr[idx - 1];
+        }
+        System.out.println(arr[idx]);
+        createFib(N,idx+1,arr);
     }
 
 }

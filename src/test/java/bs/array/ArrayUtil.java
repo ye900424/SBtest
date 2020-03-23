@@ -17,7 +17,7 @@ public class ArrayUtil {
     public static void print(int[] arr){
         for(int i : arr){
             System.out.print("[ ");
-            System.out.print(i + " , ");
+            System.out.print(i);
             System.out.print(" ]");
         }
     }

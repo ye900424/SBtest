@@ -2,7 +2,6 @@ package netty;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.util.ReferenceCountUtil;
 
 /**
  * @author: C.A.O
@@ -25,13 +24,15 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
             bb.readBytes(respByte);
             String respStr = new String(respByte, Constant.charset);
             System.err.println("client--收到响应：" + respStr);
+            System.err.println("client--再次响应：7777" );
+            ctx.writeAndFlush("777");
 
             // 直接转成对象
 //          handlerObject(ctx, msg);
 
         } finally{
             // 必须释放msg数据
-            ReferenceCountUtil.release(msg);
+//            ReferenceCountUtil.release(msg);
 
         }
 

@@ -7,10 +7,15 @@ package bs.array;
 public class ArrayUtil {
 
     public static int[] createIntArr(){
-        int[] arr = new int[10];
-        for(int i = 0 ; i< 10 ; i++){
+        return createIntArr(10);
+    }
+
+    public static int[] createIntArr(int n){
+        int[] arr = new int[n];
+        for(int i = 0 ; i< n ; i++){
             arr[i] = (int) (Math.random() * 10)/1;
         }
+        print(arr);
         return arr;
     }
 
@@ -20,5 +25,6 @@ public class ArrayUtil {
             System.out.print(i);
             System.out.print(" ]");
         }
+        System.out.println();
     }
 }

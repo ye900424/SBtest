@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86f3b8e0-9839-4fa2-b9f4-7bd2f19bdb55" name="Default" comment="123123">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_332_CoinChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN_PLUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN_PLUS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +205,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ErFen.executor": "Run",
+    "Application._332_CoinChange.executor": "Run",
     "Application._42_Trap.executor": "Run",
     "Application._LCS095_LCN.executor": "Debug",
     "Application._LCS095_LCN_PLUS.executor": "Run",
@@ -239,7 +239,7 @@
       <recent name="JedisTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._LCS095_LCN_PLUS">
+  <component name="RunManager" selected="Application._332_CoinChange">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -343,13 +343,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JAVA_8.completeFuture.Test" />
+    <configuration name="_332_CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs2024.dp._332_CoinChange" />
       <module name="SBTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JAVA_8.completeFuture.*" />
+          <option name="PATTERN" value="bs2024.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -473,20 +473,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application._332_CoinChange" />
       <item itemvalue="Application._LCS095_LCN_PLUS" />
       <item itemvalue="Application.ErFen" />
       <item itemvalue="Application._42_Trap" />
       <item itemvalue="Application._LCS095_LCN" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._332_CoinChange" />
         <item itemvalue="Application._LCS095_LCN_PLUS" />
         <item itemvalue="Application._LCS095_LCN" />
         <item itemvalue="Application._42_Trap" />
         <item itemvalue="Application.ErFen" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1553,11 +1553,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_42_Trap.java</url>
           <line>52</line>
           <option name="timeStamp" value="403" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="407" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN_PLUS.java</url>

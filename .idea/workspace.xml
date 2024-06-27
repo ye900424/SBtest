@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86f3b8e0-9839-4fa2-b9f4-7bd2f19bdb55" name="Default" comment="123123">
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/ATest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_42_Trap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN_PLUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN_PLUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN_PLUS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +54,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="1WNg8QnHyYMLVU2HQBpiwm6hGCt" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -208,10 +208,19 @@
     "Application.ErFen.executor": "Run",
     "Application._42_Trap.executor": "Run",
     "Application._LCS095_LCN.executor": "Debug",
-    "git-widget-placeholder": "master"
+    "Application._LCS095_LCN_PLUS.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/bishi" />
+      <recent name="$PROJECT_DIR$/src/test/java/thread/ContextSwitchTest" />
+      <recent name="$PROJECT_DIR$/src/test/java/PatternTest" />
+      <recent name="$PROJECT_DIR$/src/test/java/PatternTest/template" />
+      <recent name="$PROJECT_DIR$/src/test/java/PatternTest/strategy" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/target/classes" />
       <recent name="$PROJECT_DIR$/src/test/java" />
@@ -223,21 +232,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bs2024.dp" />
       <recent name="ES" />
       <recent name="zookeeper" />
       <recent name="HashWheelTimer" />
       <recent name="JedisTest" />
-      <recent name="com.dto" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/bishi" />
-      <recent name="$PROJECT_DIR$/src/test/java/thread/ContextSwitchTest" />
-      <recent name="$PROJECT_DIR$/src/test/java/PatternTest" />
-      <recent name="$PROJECT_DIR$/src/test/java/PatternTest/template" />
-      <recent name="$PROJECT_DIR$/src/test/java/PatternTest/strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._LCS095_LCN">
+  <component name="RunManager" selected="Application._LCS095_LCN_PLUS">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -327,20 +329,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="ClientNetty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.ClientNetty" />
-      <module name="SBTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ErFen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bs.ErFen" />
       <module name="SBTest" />
@@ -385,6 +373,20 @@
     </configuration>
     <configuration name="_LCS095_LCN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bs2024.dp._LCS095_LCN" />
+      <module name="SBTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs2024.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_LCS095_LCN_PLUS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs2024.dp._LCS095_LCN_PLUS" />
       <module name="SBTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -471,20 +473,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application._LCS095_LCN_PLUS" />
       <item itemvalue="Application.ErFen" />
       <item itemvalue="Application._42_Trap" />
       <item itemvalue="Application._LCS095_LCN" />
-      <item itemvalue="Application.ClientNetty" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._LCS095_LCN_PLUS" />
         <item itemvalue="Application._LCS095_LCN" />
         <item itemvalue="Application._42_Trap" />
         <item itemvalue="Application.ErFen" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ClientNetty" />
       </list>
     </recent_temporary>
   </component>
@@ -500,6 +502,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC,SHOW_LAMBDA,SHOW_PROPERTIES,SHOW_FIELDS,SHOW_INTERFACES" />
   </component>
@@ -1555,6 +1558,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN.java</url>
           <line>27</line>
           <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN_PLUS.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN_PLUS.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="410" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/MybatisTest/src/main/java/com/dao/BookDAO.java</url>

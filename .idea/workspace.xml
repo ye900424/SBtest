@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="86f3b8e0-9839-4fa2-b9f4-7bd2f19bdb55" name="Default" comment="123123">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JAVA_8/completeFuture/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/DP/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/DP/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/DP/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/recall/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs/recall/Cal8Queues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs/ATest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_42_Trap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN_PLUS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bs/array/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs/array/ArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/netty/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/netty/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +56,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1WNg8QnHyYMLVU2HQBpiwm6hGCt" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -207,30 +200,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578994545740" />
-    <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ErFen.executor": "Run",
+    "Application._42_Trap.executor": "Run",
+    "Application._LCS095_LCN.executor": "Debug",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/target/classes" />
@@ -257,7 +237,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/PatternTest/strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application._LCS095_LCN">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -287,82 +267,6 @@
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientNetty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.ClientNetty" />
-      <module name="SBTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerNetty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.ServerNetty" />
-      <module name="SBTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JAVA_8.completeFuture.Test" />
-      <module name="SBTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JAVA_8.completeFuture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bs.DP.Test3" />
-      <module name="SBTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bs.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bs.test2" />
-      <module name="SBTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -405,6 +309,100 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ClientNetty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.ClientNetty" />
+      <module name="SBTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErFen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs.ErFen" />
+      <module name="SBTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAVA_8.completeFuture.Test" />
+      <module name="SBTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JAVA_8.completeFuture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_42_Trap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs2024.dp._42_Trap" />
+      <module name="SBTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs2024.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_LCS095_LCN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs2024.dp._LCS095_LCN" />
+      <module name="SBTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs2024.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -412,49 +410,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="SBTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -465,6 +428,7 @@
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
+            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -474,9 +438,13 @@
                 <option value="mybatis-generator:generate" />
               </list>
             </option>
+            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
@@ -502,40 +470,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Application.test2" />
-      <item itemvalue="Application.Test3" />
-      <item itemvalue="Application.ServerNetty" />
+      <item itemvalue="Application.ErFen" />
+      <item itemvalue="Application._42_Trap" />
+      <item itemvalue="Application._LCS095_LCN" />
       <item itemvalue="Application.ClientNetty" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Maven.Unnamed" />
-      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._LCS095_LCN" />
+        <item itemvalue="Application._42_Trap" />
+        <item itemvalue="Application.ErFen" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ClientNetty" />
-        <item itemvalue="Application.ServerNetty" />
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -983,136 +932,6 @@
     <MESSAGE value="修改sbtest。yml" />
     <MESSAGE value="123123" />
     <option name="LAST_COMMIT_MESSAGE" value="123123" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="402" y="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1580629974922">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="402" y="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1580629974922" />
-    <state x="415" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583923850461">
-      <screen x="25" y="23" width="1255" height="777" />
-    </state>
-    <state x="415" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583923850461" />
-    <state width="437" height="466" key="DebuggerActiveHint" timestamp="1585216472119">
-      <screen x="-512" y="-1080" width="2560" height="1080" />
-    </state>
-    <state width="567" height="337" key="DebuggerActiveHint/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583902052107" />
-    <state width="437" height="466" key="DebuggerActiveHint/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1585216472119" />
-    <state width="578" height="346" key="DebuggerActiveHint/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1583981630622" />
-    <state width="523" height="346" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1580788611977" />
-    <state width="1238" height="260" key="GridCell.Tab.0.bottom" timestamp="1587094862223">
-      <screen x="25" y="23" width="1255" height="777" />
-    </state>
-    <state width="2518" height="374" key="GridCell.Tab.0.bottom/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1585292046361" />
-    <state width="1238" height="260" key="GridCell.Tab.0.bottom/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1587094862223" />
-    <state width="2518" height="527" key="GridCell.Tab.0.bottom/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1585554807377" />
-    <state width="1238" height="260" key="GridCell.Tab.0.bottom/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1587033966643" />
-    <state width="2518" height="529" key="GridCell.Tab.0.bottom/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1585554122324" />
-    <state width="1213" height="180" key="GridCell.Tab.0.bottom/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1583981398742" />
-    <state width="1238" height="261" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587021358806" />
-    <state width="1238" height="261" key="GridCell.Tab.0.bottom/25.23.1255.777@25.23.1255.777" timestamp="1587021260404" />
-    <state width="1238" height="260" key="GridCell.Tab.0.center" timestamp="1587094862221">
-      <screen x="25" y="23" width="1255" height="777" />
-    </state>
-    <state width="2518" height="374" key="GridCell.Tab.0.center/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1585292046357" />
-    <state width="1238" height="260" key="GridCell.Tab.0.center/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1587094862221" />
-    <state width="2518" height="527" key="GridCell.Tab.0.center/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1585554807374" />
-    <state width="1238" height="260" key="GridCell.Tab.0.center/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1587033966637" />
-    <state width="2518" height="529" key="GridCell.Tab.0.center/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1585554122316" />
-    <state width="1213" height="180" key="GridCell.Tab.0.center/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1583981398737" />
-    <state width="1238" height="261" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587021358803" />
-    <state width="1238" height="261" key="GridCell.Tab.0.center/25.23.1255.777@25.23.1255.777" timestamp="1587021260390" />
-    <state width="1238" height="260" key="GridCell.Tab.0.left" timestamp="1587094862220">
-      <screen x="25" y="23" width="1255" height="777" />
-    </state>
-    <state width="2518" height="374" key="GridCell.Tab.0.left/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1585292046356" />
-    <state width="1238" height="260" key="GridCell.Tab.0.left/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1587094862220" />
-    <state width="2518" height="527" key="GridCell.Tab.0.left/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1585554807368" />
-    <state width="1238" height="260" key="GridCell.Tab.0.left/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1587033966634" />
-    <state width="2518" height="529" key="GridCell.Tab.0.left/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1585554122283" />
-    <state width="1213" height="180" key="GridCell.Tab.0.left/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1583981398734" />
-    <state width="1238" height="261" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587021358801" />
-    <state width="1238" height="261" key="GridCell.Tab.0.left/25.23.1255.777@25.23.1255.777" timestamp="1587021260385" />
-    <state width="1238" height="260" key="GridCell.Tab.0.right" timestamp="1587094862222">
-      <screen x="25" y="23" width="1255" height="777" />
-    </state>
-    <state width="2518" height="374" key="GridCell.Tab.0.right/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1585292046359" />
-    <state width="1238" height="260" key="GridCell.Tab.0.right/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1587094862222" />
-    <state width="2518" height="527" key="GridCell.Tab.0.right/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1585554807376" />
-    <state width="1238" height="260" key="GridCell.Tab.0.right/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1587033966641" />
-    <state width="2518" height="529" key="GridCell.Tab.0.right/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1585554122321" />
-    <state width="1213" height="180" key="GridCell.Tab.0.right/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1583981398740" />
-    <state width="1238" height="261" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587021358805" />
-    <state width="1238" height="261" key="GridCell.Tab.0.right/25.23.1255.777@25.23.1255.777" timestamp="1587021260397" />
-    <state width="2518" height="374" key="GridCell.Tab.1.bottom" timestamp="1585575430489">
-      <screen x="25" y="23" width="1255" height="777" />
-    </state>
-    <state width="2518" height="374" key="GridCell.Tab.1.bottom/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1585292046367" />
-    <state width="1213" height="180" key="GridCell.Tab.1.bottom/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583904772394" />
-    <state width="2518" height="374" key="GridCell.Tab.1.bottom/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1585554568488" />
-    <state width="1238" height="261" key="GridCell.Tab.1.bottom/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1585020567908" />
-    <state width="2518" height="262" key="GridCell.Tab.1.bottom/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1584959671823" />
-    <state width="1238" height="197" key="GridCell.Tab.1.bottom/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1582525215455" />
-    <state width="1238" height="261" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584968299659" />
-    <state width="2518" height="374" key="GridCell.Tab.1.bottom/25.23.1255.777@25.23.1255.777" timestamp="1585575430489" />
-    <state width="2518" height="374" key="GridCell.Tab.1.center" timestamp="1585575430488">
-      <screen x="25" y="23" width="1255" height="777" />
-    </state>
-    <state width="2518" height="374" key="GridCell.Tab.1.center/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1585292046364" />
-    <state width="1213" height="180" key="GridCell.Tab.1.center/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583904772390" />
-    <state width="2518" height="374" key="GridCell.Tab.1.center/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1585554568478" />
-    <state width="1238" height="261" key="GridCell.Tab.1.center/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1585020567793" />
-    <state width="2518" height="262" key="GridCell.Tab.1.center/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1584959671817" />
-    <state width="1238" height="197" key="GridCell.Tab.1.center/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1582525215447" />
-    <state width="1238" height="261" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1584968299656" />
-    <state width="2518" height="374" key="GridCell.Tab.1.center/25.23.1255.777@25.23.1255.777" timestamp="1585575430488" />
-    <state width="2518" height="374" key="GridCell.Tab.1.left" timestamp="1585575430487">
-      <screen x="25" y="23" width="1255" height="777" />
-    </state>
-    <state width="2518" height="374" key="GridCell.Tab.1.left/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1585292046362" />
-    <state width="1213" height="180" key="GridCell.Tab.1.left/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583904772389" />
-    <state width="2518" height="374" key="GridCell.Tab.1.left/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1585554568474" />
-    <state width="1238" height="261" key="GridCell.Tab.1.left/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1585020567790" />
-    <state width="2518" height="262" key="GridCell.Tab.1.left/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1584959671808" />
-    <state width="1238" height="197" key="GridCell.Tab.1.left/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1582525215445" />
-    <state width="1238" height="261" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1584968299655" />
-    <state width="2518" height="374" key="GridCell.Tab.1.left/25.23.1255.777@25.23.1255.777" timestamp="1585575430487" />
-    <state width="2518" height="374" key="GridCell.Tab.1.right" timestamp="1585575430488">
-      <screen x="25" y="23" width="1255" height="777" />
-    </state>
-    <state width="2518" height="374" key="GridCell.Tab.1.right/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1585292046366" />
-    <state width="1213" height="180" key="GridCell.Tab.1.right/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583904772392" />
-    <state width="2518" height="374" key="GridCell.Tab.1.right/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1585554568481" />
-    <state width="1238" height="261" key="GridCell.Tab.1.right/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1585020567826" />
-    <state width="2518" height="262" key="GridCell.Tab.1.right/-512.-1080.2560.1080/25.23.1255.777@-512.-1080.2560.1080" timestamp="1584959671821" />
-    <state width="1238" height="197" key="GridCell.Tab.1.right/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1582525215451" />
-    <state width="1238" height="261" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1584968299657" />
-    <state width="2518" height="374" key="GridCell.Tab.1.right/25.23.1255.777@25.23.1255.777" timestamp="1585575430488" />
-    <state x="256" y="-957" key="SettingsEditor" timestamp="1584434223833">
-      <screen x="-512" y="-1080" width="2560" height="1080" />
-    </state>
-    <state x="256" y="-957" key="SettingsEditor/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1584434223833" />
-    <state x="418" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1587020733948">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="461" y="-708" key="com.intellij.ide.util.TipDialog/-512.-1057.2560.1057/25.23.1255.777@-512.-1057.2560.1057" timestamp="1579063807918" />
-    <state x="461" y="-708" key="com.intellij.ide.util.TipDialog/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1579055553072" />
-    <state x="502" y="280" key="com.intellij.ide.util.TipDialog/-512.-1080.2560.1080/0.0.1280.800@0.0.1280.800" timestamp="1582877501284" />
-    <state x="517" y="295" key="com.intellij.ide.util.TipDialog/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1583979922185" />
-    <state x="418" y="198" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1587020733948" />
-    <state x="289" y="156" width="703" height="487" key="find.popup" timestamp="1587019374970">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="65" y="-869" width="1406" height="657" key="find.popup/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1585280384439" />
-    <state x="289" y="156" width="703" height="487" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1587019374970" />
-    <state x="308" y="175" width="689" height="472" key="find.popup/25.23.1255.777@25.23.1255.777" timestamp="1582164735549" />
-    <state x="298" y="104" width="684" height="697" key="search.everywhere.popup" timestamp="1587018923994">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="317" y="124" width="671" height="677" key="search.everywhere.popup/-512.-1057.2560.1057/25.23.1255.777@25.23.1255.777" timestamp="1583977580734" />
-    <state x="84" y="-940" width="1367" height="940" key="search.everywhere.popup/-512.-1080.2560.1080/0.0.1280.800@-512.-1080.2560.1080" timestamp="1584430765996" />
-    <state x="317" y="124" width="670" height="676" key="search.everywhere.popup/-512.-1080.2560.1080/25.23.1255.777@25.23.1255.777" timestamp="1582614566874" />
-    <state x="298" y="104" width="684" height="697" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1587018923994" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1726,6 +1545,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/netty/ServerHandler.java</url>
           <line>24</line>
           <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_42_Trap.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_LCS095_LCN.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="407" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/MybatisTest/src/main/java/com/dao/BookDAO.java</url>

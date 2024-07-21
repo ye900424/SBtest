@@ -11,7 +11,7 @@ public class ReverseTest {
         Node source = Node.create(5);
         System.out.println("反转前：" + source.toString());
         //        System.out.println("两两反转后：" + instance.reverse2(source).toString());
-        System.out.println("反转后：" + instance.reverse(source).toString());
+        System.out.println("反转后：" + instance.reverse1(source).toString());
 
 
     }

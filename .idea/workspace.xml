@@ -5,8 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86f3b8e0-9839-4fa2-b9f4-7bd2f19bdb55" name="Default" comment="123123">
-      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_332_CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LRUCache3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LruCache4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs/LRUCache2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/array/Hot56MergeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/array/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/array/_121_maxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/array/_252_MettingRom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_139_WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_300_lengthOfLIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_416_CanPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_474_FindMaxForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_64_minPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/dp/_72_MinDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/erfen/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/jiqiao/BitCalculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/linked/DoubleReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/linked/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/linked/TowNumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/linked/_93_reverseBetween.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/pic/IslandPerimeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/pic/NumIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/pic/TireTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/pic/_233_canFinish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/pic/_994_orangesRotting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/sort/HeapSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/sort/_215_Bigest_K_num.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/sort/_75_sortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/string_/_13_romanToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/string_/_7_reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/string_/_8_myAtoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/string_/lengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/thread/ThreadPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/trackback/_13_partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/trackback/_39combinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/trackback/_47_permuteUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/trackback/_51_N_huanghou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/trackback/_77_combine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/trackback/_78_subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/trackback/_93_restoreIpAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/tree/Bfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/tree/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/tree/_95_generateTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/tree/_96_numTrees_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bs2024/tree/__99__recoverTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bs/linked/ReverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs/linked/ReverseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bs/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bs/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +102,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="1WNg8QnHyYMLVU2HQBpiwm6hGCt" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -204,11 +253,58 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Bfs.executor": "Run",
+    "Application.BitCalculate.executor": "Debug",
+    "Application.DoubleReverse.executor": "Run",
     "Application.ErFen.executor": "Run",
+    "Application.HeapSort.executor": "Run",
+    "Application.HeapSort2.executor": "Debug",
+    "Application.Hot56MergeArray.executor": "Debug",
+    "Application.IslandPerimeter.executor": "Run",
+    "Application.LRUCache3.executor": "Debug",
+    "Application.LruCache4.executor": "Debug",
+    "Application.MergeSort.executor": "Run",
+    "Application.NextPermutation.executor": "Debug",
+    "Application.NumIslands.executor": "Debug",
+    "Application.QuickSort.executor": "Run",
+    "Application.QuickSort2.executor": "Debug",
+    "Application.ReverseTest.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.ThreadPoolTest.executor": "Run",
+    "Application.TireTest.executor": "Debug",
+    "Application.TowNumSum.executor": "Run",
+    "Application._121_maxProfit.executor": "Debug",
+    "Application._139_WordBreak.executor": "Debug",
+    "Application._13_partition.executor": "Debug",
+    "Application._13_romanToInt.executor": "Debug",
+    "Application._215_Bigest_K_num.executor": "Run",
+    "Application._233_canFinish.executor": "Run",
+    "Application._252_MettingRom.executor": "Run",
+    "Application._300_lengthOfLIS.executor": "Run",
     "Application._332_CoinChange.executor": "Run",
+    "Application._39combinationSum.executor": "Run",
+    "Application._416_CanPartition.executor": "Run",
     "Application._42_Trap.executor": "Run",
+    "Application._474_FindMaxForm.executor": "Run",
+    "Application._47_permuteUnique.executor": "Run",
+    "Application._51_N_huanghou.executor": "Debug",
+    "Application._64_minPathSum.executor": "Run",
+    "Application._72_MinDistance.executor": "Debug",
+    "Application._75_sortColors.executor": "Run",
+    "Application._77_combine.executor": "Run",
+    "Application._78_subsets.executor": "Run",
+    "Application._7_reverse.executor": "Debug",
+    "Application._8_myAtoi.executor": "Run",
+    "Application._93_restoreIpAddresses.executor": "Run",
+    "Application._93_reverseBetween.executor": "Run",
+    "Application._95_generateTrees.executor": "Run",
+    "Application._95_numTrees_.executor": "Debug",
+    "Application._994_orangesRotting.executor": "Run",
     "Application._LCS095_LCN.executor": "Debug",
     "Application._LCS095_LCN_PLUS.executor": "Run",
+    "Application.__99__recoverTree.executor": "Run",
+    "Application.lengthOfLongestSubstring.executor": "Run",
+    "Application.test.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
@@ -232,14 +328,14 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bs2024.sort" />
+      <recent name="" />
       <recent name="bs2024.dp" />
       <recent name="ES" />
       <recent name="zookeeper" />
-      <recent name="HashWheelTimer" />
-      <recent name="JedisTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._332_CoinChange">
+  <component name="RunManager" selected="Application._72_MinDistance">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -329,22 +425,8 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="ErFen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bs.ErFen" />
-      <module name="SBTest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_332_CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bs2024.dp._332_CoinChange" />
+    <configuration name="_139_WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs2024.dp._139_WordBreak" />
       <module name="SBTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -357,8 +439,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_42_Trap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bs2024.dp._42_Trap" />
+    <configuration name="_416_CanPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs2024.dp._416_CanPartition" />
       <module name="SBTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -371,8 +453,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_LCS095_LCN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bs2024.dp._LCS095_LCN" />
+    <configuration name="_474_FindMaxForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs2024.dp._474_FindMaxForm" />
       <module name="SBTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -385,8 +467,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_LCS095_LCN_PLUS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bs2024.dp._LCS095_LCN_PLUS" />
+    <configuration name="_64_minPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs2024.dp._64_minPathSum" />
+      <module name="SBTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs2024.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_72_MinDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs2024.dp._72_MinDistance" />
       <module name="SBTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -473,20 +569,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application._332_CoinChange" />
-      <item itemvalue="Application._LCS095_LCN_PLUS" />
-      <item itemvalue="Application.ErFen" />
-      <item itemvalue="Application._42_Trap" />
-      <item itemvalue="Application._LCS095_LCN" />
+      <item itemvalue="Application._139_WordBreak" />
+      <item itemvalue="Application._416_CanPartition" />
+      <item itemvalue="Application._474_FindMaxForm" />
+      <item itemvalue="Application._64_minPathSum" />
+      <item itemvalue="Application._72_MinDistance" />
       <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._332_CoinChange" />
-        <item itemvalue="Application._LCS095_LCN_PLUS" />
-        <item itemvalue="Application._LCS095_LCN" />
-        <item itemvalue="Application._42_Trap" />
-        <item itemvalue="Application.ErFen" />
+        <item itemvalue="Application._72_MinDistance" />
+        <item itemvalue="Application._64_minPathSum" />
+        <item itemvalue="Application._139_WordBreak" />
+        <item itemvalue="Application._474_FindMaxForm" />
+        <item itemvalue="Application._416_CanPartition" />
       </list>
     </recent_temporary>
   </component>
@@ -1564,6 +1660,319 @@
           <line>53</line>
           <option name="timeStamp" value="410" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LRUCache3.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/tree/_96_numTrees_.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/trackback/_93_restoreIpAddresses.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/trackback/_93_restoreIpAddresses.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/trackback/_77_combine.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/trackback/_78_subsets.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/trackback/_47_permuteUnique.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/trackback/_47_permuteUnique.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs/sort/QuickSort2.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/sort/QuickSort.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/sort/_215_Bigest_K_num.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/tree/__99__recoverTree.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/tree/__99__recoverTree.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/linked/_93_reverseBetween.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/linked/_93_reverseBetween.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/linked/_93_reverseBetween.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/string_/_8_myAtoi.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/string_/_8_myAtoi.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/string_/_8_myAtoi.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/string_/_8_myAtoi.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/string_/_7_reverse.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/string_/_13_romanToInt.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/string_/lengthOfLongestSubstring.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/array/Hot56MergeArray.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/pic/NumIslands.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/pic/NumIslands.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/pic/IslandPerimeter.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/pic/IslandPerimeter.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/tree/Bfs.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="476" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/pic/_994_orangesRotting.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/pic/_233_canFinish.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/pic/_233_canFinish.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="483" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/pic/TireTest.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/pic/TireTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="485" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/pic/TireTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="486" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/trackback/_39combinationSum.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/trackback/_51_N_huanghou.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="494" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/array/_121_maxProfit.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="495" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/erfen/Test.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/erfen/Test.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/erfen/Test.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/array/NextPermutation.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/sort/HeapSort.java</url>
+          <line>10</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/sort/HeapSort.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="504" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/sort/HeapSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/sort/HeapSort2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="516" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_300_lengthOfLIS.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="517" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_300_lengthOfLIS.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="518" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/array/_252_MettingRom.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LruCache4.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="520" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LRUCache3.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="521" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LruCache4.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="522" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LruCache4.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="524" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LruCache4.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="525" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LruCache4.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="526" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/linked/TowNumSum.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="527" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_416_CanPartition.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_416_CanPartition.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="535" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_139_WordBreak.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="539" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_64_minPathSum.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="540" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_64_minPathSum.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="541" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bs2024/dp/_72_MinDistance.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="542" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/MybatisTest/src/main/java/com/dao/BookDAO.java</url>
           <line>22</line>
@@ -1578,5 +1987,10 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SBtest$_75_sortColors.ic" NAME="_75_sortColors Coverage Results" MODIFIED="1720271178038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>bs2024.sort.*</FILTER>
+    </SUITE>
   </component>
 </project>

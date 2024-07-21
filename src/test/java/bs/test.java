@@ -7,6 +7,10 @@ package bs;
 public class test {
 
     public static void main(String[] args) {
+        int i = Integer.MAX_VALUE;
+        System.out.println(i);
+
+
         test test = new test();
         test.binaryToDecimal(10);
         test.fun(11,2);

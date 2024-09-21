@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class QuickSort {
     public static void main(String[] args) {
         QuickSort quickSort = new QuickSort();
-        int[] nums = new int[]{3,2,1,5,6,4};
+        int[] nums = new int[]{110, 100, 0};
         quickSort.doSort(nums,0,nums.length -1);
-        Arrays.stream(nums).forEach(x-> System.out.print(x));
+        Arrays.stream(nums).forEach(x-> System.out.print(x+","));
 
     }
 

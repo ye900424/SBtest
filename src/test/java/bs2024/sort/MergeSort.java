@@ -33,12 +33,9 @@ public class MergeSort {
             temp[k++] = arr[i] <= arr[j] ? arr[i++] : arr[j++];
         }
 
-        Queue<String> queue = new LinkedList();
-
         while (i <= mid) {
             temp[k++] = arr[i++];
         }
-
         while (j <= right) {
             temp[k++] = arr[j++];
         }

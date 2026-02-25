@@ -1,5 +1,6 @@
-import java.util.HashMap;
-import java.util.Map;
+import com.alibaba.fastjson.JSON;
+
+import java.util.*;
 
 /**
  * Created by caoyang on 2017/7/31.
@@ -7,26 +8,47 @@ import java.util.Map;
 public class Test_S {
     public static void main(String[] args) {
 
-        System.out.println(2 | 1);
-        System.out.println(3 | 1);
-        System.out.println(2 & 1);
-        System.out.println(3 & 1);
-        System.out.println(('a' ^ 'a') == 0);
-        System.out.println('a' - '0');
+        Test_S instance = new Test_S();
+        System.out.println(JSON.toJSONString(instance.canFinish(2,new int[][]{{1,0}})));
 
+    }
 
-        String str1 = "hello";
-        String str2 = "hhllo";
-        int count = 0;
-        for(int i = 0 ; i < 5 ;i++){
-            if((str1.charAt(i) ^ str2.charAt(i)) != 0){
-                count++;
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        Map<Integer,List<Integer>> map = new HashMap();
+        int[] indegree = new int[numCourses];
+        for(int[] arr : prerequisites){
+            int first = arr[0];
+            int second = arr[1];
+
+            indegree[first]++;
+            if(map.containsKey(second)){
+                map.get(second).add(first);
+            }else{
+                List<Integer> list = new ArrayList();
+                list.add(first);
+                map.put(second,list);
             }
         }
-        System.out.println(count);
 
+        Queue<Integer> queue = new LinkedList();
+        for(int i = 0 ; i < numCourses ; i++){
+            if(indegree[i] == 0){
+                queue.add(i);
+            }
+        }
 
-        System.out.println(('b'-'a') == 1);
+        int count = numCourses;
+        while(!queue.isEmpty() && count > 0){
+            count --;
+            List<Integer> list = map.get(queue.poll());
+            for(Integer num : list){
+                indegree[num]--;
+                if(indegree[num] == 0){
+                    queue.add(num);
+                }
+            }
+        }
 
+        return count == 0;
     }
 }

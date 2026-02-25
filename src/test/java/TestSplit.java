@@ -1,21 +1,49 @@
+import com.alibaba.fastjson.JSON;
+
+import java.util.*;
+
 /**
  * Created by C.A.O on 2018/6/20.
  */
 public class TestSplit {
     public static void main(String[] args) {
-        String str = "";
+        TestSplit instance= new TestSplit();
+        int[] nums = new int[]{100};
+        List<String> list = new ArrayList();
+        list.add("apple");
+        list.add("pen");
+        list.add("nice");
+        int ret = instance.hIndex(nums);
+        System.out.println(ret);
+    }
 
-        String[] array = str.split("\\|",100);
+    public int hIndex(int[] citations) {
 
-        System.out.println(array.length);
-        for(String str22 : array){
-            if(null == str22){
-                System.out.println("null");
-            }else if("".equals(str22)){
-                System.out.println("空字符串");
-            }else {
-                System.out.println(str22);
+        Arrays.sort(citations);
+        Map<Integer,Integer> map = new HashMap();
+        for(int i = citations.length - 1; i >= 0 ;i--){
+            int el = citations[i];
+
+            if(i == citations.length - 1){
+                map.put(el,1);
+                continue;
+            }
+
+            if(map.containsKey(el)){
+                map.put(el,map.get(el) + 1);
+            }else{
+                map.put(el,map.get(citations[i+1]) + 1);
             }
         }
+
+        int ret = 0;
+        for(Map.Entry<Integer,Integer> entry : map.entrySet()){
+            if(entry.getValue() >= entry.getKey()){
+                ret = Math.max(ret,entry.getKey());
+            }
+        }
+
+        return ret;
+
     }
 }

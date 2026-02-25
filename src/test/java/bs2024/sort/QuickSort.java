@@ -22,24 +22,24 @@ public class QuickSort {
 
     }
 
-    private int partition(int[] nums,int startIdx,int endIdx){
-        int pVal = nums[startIdx];
-        int lIdx = startIdx;
-        int rIdx = endIdx;
-
-        while (lIdx < rIdx){
-            while (nums[rIdx] >= pVal && lIdx < rIdx){
-                rIdx--;
-            }
-            while(nums[lIdx] <= pVal && lIdx < rIdx){
-                lIdx++;
-            }
-
-            swap(nums,lIdx,rIdx);
-        }
-        swap(nums,lIdx,startIdx);
-        return lIdx;
-    }
+//    private int partition(int[] nums,int startIdx,int endIdx){
+//        int pVal = nums[startIdx];
+//        int lIdx = startIdx;
+//        int rIdx = endIdx;
+//
+//        while (lIdx < rIdx){
+//            while (nums[rIdx] >= pVal && lIdx < rIdx){
+//                rIdx--;
+//            }
+//            while(nums[lIdx] <= pVal && lIdx < rIdx){
+//                lIdx++;
+//            }
+//
+//            swap(nums,lIdx,rIdx);
+//        }
+//        swap(nums,lIdx,startIdx);
+//        return lIdx;
+//    }
 
     /*
      * 分治法（单边循环法）
@@ -47,22 +47,22 @@ public class QuickSort {
      * startIndex  起始下标
      * endIndex  结束下标
      * */
-//    public int partition(int arr[],int startIndex,int endIndex)
-//    {
-//        int p=arr[startIndex];//基准元素(可取随机位置)
-//        int mark=startIndex;
-//
-//        for(int i=startIndex+1;i<=endIndex;i++){
-//            if(arr[i]<p){
-//                mark++;
-//                swap(arr,mark,i);
-//            }
-//        }
-//
-//        //交换基准元素和mark指针的元素
-//        swap(arr,mark,startIndex);
-//        return mark;
-//    }
+    public int partition(int arr[],int startIndex,int endIndex)
+    {
+        int p=arr[startIndex];//基准元素(可取随机位置)
+        int mark=startIndex;
+
+        for(int i=startIndex+1;i<=endIndex;i++){
+            if(arr[i]<p){
+                mark++;
+                swap(arr,mark,i);
+            }
+        }
+
+        //交换基准元素和mark指针的元素
+        swap(arr,mark,startIndex);
+        return mark;
+    }
 
 
 //    private int partition(int[] nums,int startIdx,int endIdx){
